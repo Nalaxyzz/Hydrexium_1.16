@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "hydrexiumingot",
+    "texture": "oxoniumingot",
     "customModelName": "Normal",
-    "name": "L'ingot D'Hydrexium",
-    "rarity": "EPIC",
+    "name": "L'ingot D'oxonium",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },

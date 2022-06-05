@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "hydrexiumingot",
+    "texture": "voidium_ingot",
     "customModelName": "Normal",
-    "name": "L'ingot D'Hydrexium",
-    "rarity": "EPIC",
+    "name": "L'ingot de voidium",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },

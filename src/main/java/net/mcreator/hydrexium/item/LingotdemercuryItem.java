@@ -12,11 +12,11 @@ import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 @Hydrexium116ModElements.ModElement.Tag
-public class LingotHydrexiumItem extends Hydrexium116ModElements.ModElement {
-	@ObjectHolder("hydrexium_1_16:lingot_hydrexium")
+public class LingotdemercuryItem extends Hydrexium116ModElements.ModElement {
+	@ObjectHolder("hydrexium_1_16:lingotdemercury")
 	public static final Item block = null;
-	public LingotHydrexiumItem(Hydrexium116ModElements instance) {
-		super(instance, 1);
+	public LingotdemercuryItem(Hydrexium116ModElements instance) {
+		super(instance, 2);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class LingotHydrexiumItem extends Hydrexium116ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(HydrexiumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
-			setRegistryName("lingot_hydrexium");
+			super(new Item.Properties().group(HydrexiumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
+			setRegistryName("lingotdemercury");
 		}
 
 		@Override

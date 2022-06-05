@@ -4,7 +4,7 @@
     {
       "name": "Hydrexiumtab",
       "type": "tab",
-      "sortid": 1,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -14,11 +14,81 @@
     {
       "name": "LingotHydrexium",
       "type": "item",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "lingot_hydrexium",
+      "path": "~/Item"
+    },
+    {
+      "name": "Lingotdemercury",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotdemercury",
+      "path": "~/Item"
+    },
+    {
+      "name": "Lingotdevoidium",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotdevoidium",
+      "path": "~/Item"
+    },
+    {
+      "name": "Lingotdinfernium",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotdinfernium",
+      "path": "~/Item"
+    },
+    {
+      "name": "Lingotdefauconium",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotdefauconium",
+      "path": "~/Item"
+    },
+    {
+      "name": "LingotDinfinity",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingot_dinfinity",
+      "path": "~/Item"
+    },
+    {
+      "name": "LingotDoxonium",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingot_doxonium",
+      "path": "~/Item"
+    },
+    {
+      "name": "LingotdeSlavicnium",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotde_slavicnium",
       "path": "~/Item"
     }
   ],
@@ -26,7 +96,14 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot Hydrexium",
+      "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
+      "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
+      "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
+      "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot D\u0027Hydrexium",
+      "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+      "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
+      "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
+      "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
       "itemGroup.tabhydrexiumtab": "Hydrexium "
     }
   },

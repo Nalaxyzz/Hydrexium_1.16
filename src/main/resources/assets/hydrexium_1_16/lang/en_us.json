@@ -1,4 +1,11 @@
 {
-  "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot Hydrexium",
+  "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
+  "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
+  "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
+  "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot D\u0027Hydrexium",
+  "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+  "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
+  "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
+  "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
   "itemGroup.tabhydrexiumtab": "Hydrexium "
 }
