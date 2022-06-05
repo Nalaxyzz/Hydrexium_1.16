@@ -1,10 +1,22 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Sdqdq",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sdqdq"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.hydrexium_1_16.sdqdq": "Sdqdq"
+    }
   },
   "foldersRoot": {
     "name": "~",
