@@ -8,7 +8,40 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Minerais",
+        "children": []
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      },
+      {
+        "name": "Craft",
+        "children": []
+      },
+      {
+        "name": "Gui",
+        "children": []
+      },
+      {
+        "name": "Mechanic",
+        "children": []
+      },
+      {
+        "name": "Mob",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
