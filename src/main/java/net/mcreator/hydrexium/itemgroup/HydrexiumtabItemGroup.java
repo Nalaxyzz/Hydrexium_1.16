@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.hydrexium.item.LingotHydrexiumItem;
+import net.mcreator.hydrexium.block.HydrexiumblocBlock;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 @Hydrexium116ModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class HydrexiumtabItemGroup extends Hydrexium116ModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(LingotHydrexiumItem.block, (int) (1));
+				return new ItemStack(HydrexiumblocBlock.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

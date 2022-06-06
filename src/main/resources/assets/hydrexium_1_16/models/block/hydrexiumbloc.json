@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium_1_16:blocks/hydrexiumbloc",
+    "up": "hydrexium_1_16:blocks/hydrexiumbloc",
+    "north": "hydrexium_1_16:blocks/hydrexiumbloc",
+    "east": "hydrexium_1_16:blocks/hydrexiumbloc",
+    "south": "hydrexium_1_16:blocks/hydrexiumbloc",
+    "west": "hydrexium_1_16:blocks/hydrexiumbloc",
+    "particle": "hydrexium_1_16:blocks/hydrexiumbloc"
+  }
+}

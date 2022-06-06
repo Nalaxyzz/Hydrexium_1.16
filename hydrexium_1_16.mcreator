@@ -180,30 +180,129 @@
       "ids": {},
       "registry_name": "mineraisde_fauconium",
       "path": "~/Minerais"
+    },
+    {
+      "name": "LingotdeBlutenium",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingotde_blutenium",
+      "path": "~/Item"
+    },
+    {
+      "name": "Hydrexiumbloc",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumbloc",
+      "path": "~/Block"
+    },
+    {
+      "name": "Fauconiumbloc",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fauconiumbloc",
+      "path": "~/Block"
+    },
+    {
+      "name": "Voidiumbloc",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidiumbloc",
+      "path": "~/Block"
+    },
+    {
+      "name": "Slavicniumbloc",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumbloc",
+      "path": "~/Block"
+    },
+    {
+      "name": "Mercurybloc",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercurybloc",
+      "path": "~/Block"
+    },
+    {
+      "name": "Infinitybloc",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinitybloc",
+      "path": "~/Block"
+    },
+    {
+      "name": "Oxoniumbloc",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxoniumbloc",
+      "path": "~/Block"
+    },
+    {
+      "name": "Inferniumbloc",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumbloc",
+      "path": "~/Block"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
-      "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
       "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot en Hydrexium",
+      "block.hydrexium_1_16.oxoniumbloc": "Oxonium bloc",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
       "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
-      "block.hydrexium_1_16.mineraisde_slavicnium": "Mineraisde Slavicnium",
-      "itemGroup.tabhydrexiumtab": "Hydrexium ",
-      "block.hydrexium_1_16.mineraisde_fauconium": "Mineraisde Fauconium",
-      "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
+      "item.hydrexium_1_16.lingotde_blutenium": "Lingotde Blutenium",
+      "block.hydrexium_1_16.mineraisde_slavicnium": "Minerais de Slavicnium",
+      "block.hydrexium_1_16.mineraisde_fauconium": "Minerais de Fauconium",
       "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
       "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
       "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
+      "block.hydrexium_1_16.voidiumbloc": "Voidium bloc",
       "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+      "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
+      "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
+      "block.hydrexium_1_16.fauconiumbloc": "Fauconium bloc",
+      "block.hydrexium_1_16.mercurybloc": "Mercury bloc",
+      "block.hydrexium_1_16.inferniumbloc": "Infernium bloc",
+      "block.hydrexium_1_16.infinitybloc": "Infinity bloc",
+      "itemGroup.tabhydrexiumtab": "Hydrexium ",
+      "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
       "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
+      "block.hydrexium_1_16.slavicniumbloc": "Slavicnium bloc",
       "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
+      "block.hydrexium_1_16.hydrexiumbloc": "Hydrexiumbloc",
       "block.hydrexium_1_16.mineraisdinfinity": "Mineraisdinfinity",
-      "block.hydrexium_1_16.mineraisdemercury": "Mineraisdemercury"
+      "block.hydrexium_1_16.mineraisdemercury": "Minerais de mercury"
     }
   },
   "foldersRoot": {
@@ -246,7 +345,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
