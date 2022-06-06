@@ -320,7 +320,24 @@
       "ids": {},
       "registry_name": "luckyblockcasse",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       },
       "path": "~/Procedure"
     },
@@ -343,6 +360,26 @@
       "ids": {},
       "registry_name": "station_dhammermk_2",
       "path": "~/Mechanic"
+    },
+    {
+      "name": "Tetedegrappin",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tetedegrappin",
+      "path": "~/Item"
+    },
+    {
+      "name": "Grappin",
+      "type": "gun",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grappin",
+      "path": "~/Mechanic"
     }
   ],
   "variable_elements": [],
@@ -354,6 +391,7 @@
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
       "block.hydrexium_1_16.compresseurmk_2": "Compresseurmk 2",
       "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
+      "item.hydrexium_1_16.tetedegrappin": " Tête de Grappin",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
       "item.hydrexium_1_16.lingotde_blutenium": "Lingotde Blutenium",
       "block.hydrexium_1_16.mineraisde_slavicnium": "Minerais de Slavicnium",
@@ -377,8 +415,9 @@
       "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
       "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
       "block.hydrexium_1_16.compresseur": "Compresseur",
+      "item.hydrexium_1_16.grappin": "Grappin",
       "block.hydrexium_1_16.slavicniumbloc": "Slavicnium bloc",
-      "block.hydrexium_1_16.luckyblock": "Luckyblock",
+      "block.hydrexium_1_16.luckyblock": "Lucky block en Hydrexium",
       "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
       "block.hydrexium_1_16.hydrexiumbloc": "Hydrexiumbloc",
       "block.hydrexium_1_16.mineraisdinfinity": "Mineraisdinfinity",
@@ -425,7 +464,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
