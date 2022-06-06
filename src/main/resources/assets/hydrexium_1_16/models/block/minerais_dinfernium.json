@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium_1_16:blocks/inferniumore",
+    "up": "hydrexium_1_16:blocks/inferniumore",
+    "north": "hydrexium_1_16:blocks/inferniumore",
+    "east": "hydrexium_1_16:blocks/inferniumore",
+    "south": "hydrexium_1_16:blocks/inferniumore",
+    "west": "hydrexium_1_16:blocks/inferniumore",
+    "particle": "hydrexium_1_16:blocks/inferniumore"
+  }
+}

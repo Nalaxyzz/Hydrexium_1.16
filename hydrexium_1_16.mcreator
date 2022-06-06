@@ -110,6 +110,76 @@
       "ids": {},
       "registry_name": "minerais_d_hydrexium_2",
       "path": "~/Minerais"
+    },
+    {
+      "name": "Mineraisdinfinity",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraisdinfinity",
+      "path": "~/Minerais"
+    },
+    {
+      "name": "Mineraisdemercury",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraisdemercury",
+      "path": "~/Minerais"
+    },
+    {
+      "name": "MineraisDinfernium",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerais_dinfernium",
+      "path": "~/Minerais"
+    },
+    {
+      "name": "MineraisdeSlavicnium",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraisde_slavicnium",
+      "path": "~/Minerais"
+    },
+    {
+      "name": "MineraisDoxonium",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerais_doxonium",
+      "path": "~/Minerais"
+    },
+    {
+      "name": "Mineraisdevoidium",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraisdevoidium",
+      "path": "~/Minerais"
+    },
+    {
+      "name": "MineraisdeFauconium",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineraisde_fauconium",
+      "path": "~/Minerais"
     }
   ],
   "variable_elements": [],
@@ -117,16 +187,23 @@
   "language_map": {
     "en_us": {
       "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
-      "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
-      "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
-      "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
+      "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
       "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot en Hydrexium",
-      "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
-      "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
       "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
-      "itemGroup.tabhydrexiumtab": "Hydrexium "
+      "block.hydrexium_1_16.mineraisde_slavicnium": "Mineraisde Slavicnium",
+      "itemGroup.tabhydrexiumtab": "Hydrexium ",
+      "block.hydrexium_1_16.mineraisde_fauconium": "Mineraisde Fauconium",
+      "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
+      "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
+      "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
+      "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
+      "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+      "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
+      "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
+      "block.hydrexium_1_16.mineraisdinfinity": "Mineraisdinfinity",
+      "block.hydrexium_1_16.mineraisdemercury": "Mineraisdemercury"
     }
   },
   "foldersRoot": {
@@ -169,7 +246,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

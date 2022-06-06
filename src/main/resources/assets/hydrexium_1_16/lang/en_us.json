@@ -1,13 +1,20 @@
 {
   "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
-  "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
-  "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
-  "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
+  "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
   "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot en Hydrexium",
-  "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
-  "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
   "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
   "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
   "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
-  "itemGroup.tabhydrexiumtab": "Hydrexium "
+  "block.hydrexium_1_16.mineraisde_slavicnium": "Mineraisde Slavicnium",
+  "itemGroup.tabhydrexiumtab": "Hydrexium ",
+  "block.hydrexium_1_16.mineraisde_fauconium": "Mineraisde Fauconium",
+  "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
+  "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
+  "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
+  "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
+  "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+  "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
+  "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
+  "block.hydrexium_1_16.mineraisdinfinity": "Mineraisdinfinity",
+  "block.hydrexium_1_16.mineraisdemercury": "Mineraisdemercury"
 }
