@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium_1_16:blocks/upgrade_stationmk2_bottom",
+    "up": "hydrexium_1_16:blocks/upgrade_stationmk2_top",
+    "north": "hydrexium_1_16:blocks/upgrade_stationmk2_front",
+    "east": "hydrexium_1_16:blocks/upgrade_stationmk2_front",
+    "south": "hydrexium_1_16:blocks/upgrade_stationmk2_front",
+    "west": "hydrexium_1_16:blocks/upgrade_stationmk2_front",
+    "particle": "hydrexium_1_16:blocks/upgrade_stationmk2_bottom"
+  }
+}

@@ -13,7 +13,7 @@ import net.mcreator.hydrexium.Hydrexium116ModElements;
 @Hydrexium116ModElements.ModElement.Tag
 public class HydrexiumtabItemGroup extends Hydrexium116ModElements.ModElement {
 	public HydrexiumtabItemGroup(Hydrexium116ModElements instance) {
-		super(instance, 9);
+		super(instance, 33);
 	}
 
 	@Override

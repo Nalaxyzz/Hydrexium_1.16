@@ -2,7 +2,6 @@
 package net.mcreator.hydrexium.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
 
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -20,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @Hydrexium116ModElements.ModElement.Tag
-public class VoidiumblocBlock extends Hydrexium116ModElements.ModElement {
-	@ObjectHolder("hydrexium_1_16:voidiumbloc")
+public class CompresseurBlock extends Hydrexium116ModElements.ModElement {
+	@ObjectHolder("hydrexium_1_16:compresseur")
 	public static final Block block = null;
-	public VoidiumblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 20);
+	public CompresseurBlock(Hydrexium116ModElements instance) {
+		super(instance, 28);
 	}
 
 	@Override
@@ -35,9 +34,8 @@ public class VoidiumblocBlock extends Hydrexium116ModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("voidiumbloc");
+			super(Block.Properties.create(Material.ANVIL).sound(SoundType.ANVIL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			setRegistryName("compresseur");
 		}
 
 		@Override

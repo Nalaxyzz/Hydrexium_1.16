@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium_1_16:blocks/luckyblock",
+    "up": "hydrexium_1_16:blocks/luckyblock",
+    "north": "hydrexium_1_16:blocks/luckyblock",
+    "east": "hydrexium_1_16:blocks/luckyblock",
+    "south": "hydrexium_1_16:blocks/luckyblock",
+    "west": "hydrexium_1_16:blocks/luckyblock",
+    "particle": "hydrexium_1_16:blocks/luckyblock"
+  }
+}

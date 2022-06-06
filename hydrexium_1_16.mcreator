@@ -4,7 +4,7 @@
     {
       "name": "Hydrexiumtab",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "MineraisDHydrexium1",
       "type": "block",
-      "sortid": 10,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -104,7 +104,7 @@
     {
       "name": "MineraisDHydrexium2",
       "type": "block",
-      "sortid": 11,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -114,7 +114,7 @@
     {
       "name": "Mineraisdinfinity",
       "type": "block",
-      "sortid": 12,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -124,7 +124,7 @@
     {
       "name": "Mineraisdemercury",
       "type": "block",
-      "sortid": 13,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -134,7 +134,7 @@
     {
       "name": "MineraisDinfernium",
       "type": "block",
-      "sortid": 14,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -144,7 +144,7 @@
     {
       "name": "MineraisdeSlavicnium",
       "type": "block",
-      "sortid": 15,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -154,7 +154,7 @@
     {
       "name": "MineraisDoxonium",
       "type": "block",
-      "sortid": 16,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -164,7 +164,7 @@
     {
       "name": "Mineraisdevoidium",
       "type": "block",
-      "sortid": 17,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -174,7 +174,7 @@
     {
       "name": "MineraisdeFauconium",
       "type": "block",
-      "sortid": 18,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "LingotdeBlutenium",
       "type": "item",
-      "sortid": 19,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -194,7 +194,7 @@
     {
       "name": "Hydrexiumbloc",
       "type": "block",
-      "sortid": 20,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -204,7 +204,7 @@
     {
       "name": "Fauconiumbloc",
       "type": "block",
-      "sortid": 21,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -214,7 +214,7 @@
     {
       "name": "Voidiumbloc",
       "type": "block",
-      "sortid": 22,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -224,7 +224,7 @@
     {
       "name": "Slavicniumbloc",
       "type": "block",
-      "sortid": 23,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -234,7 +234,7 @@
     {
       "name": "Mercurybloc",
       "type": "block",
-      "sortid": 24,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +244,7 @@
     {
       "name": "Infinitybloc",
       "type": "block",
-      "sortid": 25,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -254,7 +254,7 @@
     {
       "name": "Oxoniumbloc",
       "type": "block",
-      "sortid": 26,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,12 +264,85 @@
     {
       "name": "Inferniumbloc",
       "type": "block",
-      "sortid": 27,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "inferniumbloc",
       "path": "~/Block"
+    },
+    {
+      "name": "Souris",
+      "type": "mob",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souris",
+      "path": "~/Mob"
+    },
+    {
+      "name": "Luckyblock",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckyblock",
+      "path": "~/Mechanic"
+    },
+    {
+      "name": "Compresseur",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresseur",
+      "path": "~/Mechanic"
+    },
+    {
+      "name": "Compresseurmk2",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresseurmk_2",
+      "path": "~/Mechanic"
+    },
+    {
+      "name": "Luckyblockcasse",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckyblockcasse",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "StationDhammermk1",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "station_dhammermk_1",
+      "path": "~/Mechanic"
+    },
+    {
+      "name": "StationDhammermk2",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "station_dhammermk_2",
+      "path": "~/Mechanic"
     }
   ],
   "variable_elements": [],
@@ -279,6 +352,7 @@
       "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot en Hydrexium",
       "block.hydrexium_1_16.oxoniumbloc": "Oxonium bloc",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
+      "block.hydrexium_1_16.compresseurmk_2": "Compresseurmk 2",
       "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
       "item.hydrexium_1_16.lingotde_blutenium": "Lingotde Blutenium",
@@ -288,7 +362,11 @@
       "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
       "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
       "block.hydrexium_1_16.voidiumbloc": "Voidium bloc",
+      "entity.hydrexium_1_16.souris": "Souris",
       "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+      "item.hydrexium_1_16.souris_spawn_egg": "Souris Spawn Egg",
+      "block.hydrexium_1_16.station_dhammermk_2": "Station Dhammermk 2",
+      "block.hydrexium_1_16.station_dhammermk_1": "Station Dhammermk 1",
       "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
       "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
       "block.hydrexium_1_16.fauconiumbloc": "Fauconium bloc",
@@ -298,7 +376,9 @@
       "itemGroup.tabhydrexiumtab": "Hydrexium ",
       "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
       "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
+      "block.hydrexium_1_16.compresseur": "Compresseur",
       "block.hydrexium_1_16.slavicniumbloc": "Slavicnium bloc",
+      "block.hydrexium_1_16.luckyblock": "Luckyblock",
       "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
       "block.hydrexium_1_16.hydrexiumbloc": "Hydrexiumbloc",
       "block.hydrexium_1_16.mineraisdinfinity": "Mineraisdinfinity",
@@ -345,7 +425,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

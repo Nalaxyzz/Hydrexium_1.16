@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium_1_16:blocks/compressor_bas",
+    "up": "hydrexium_1_16:blocks/compressor_haut",
+    "north": "hydrexium_1_16:blocks/compressor_cote_2",
+    "east": "hydrexium_1_16:blocks/compressor_cote",
+    "south": "hydrexium_1_16:blocks/compressor_cote_2",
+    "west": "hydrexium_1_16:blocks/compressor_cote",
+    "particle": "hydrexium_1_16:blocks/compressor_bas"
+  }
+}

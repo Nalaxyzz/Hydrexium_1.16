@@ -24,7 +24,7 @@ public class InfinityblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:infinitybloc")
 	public static final Block block = null;
 	public InfinityblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 25);
+		super(instance, 23);
 	}
 
 	@Override
