@@ -90,6 +90,26 @@
       "ids": {},
       "registry_name": "lingotde_slavicnium",
       "path": "~/Item"
+    },
+    {
+      "name": "MineraisDHydrexium1",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerais_d_hydrexium_1",
+      "path": "~/Minerais"
+    },
+    {
+      "name": "MineraisDHydrexium2",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minerais_d_hydrexium_2",
+      "path": "~/Minerais"
     }
   ],
   "variable_elements": [],
@@ -99,7 +119,9 @@
       "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
       "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
       "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
-      "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot D\u0027Hydrexium",
+      "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
+      "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot en Hydrexium",
+      "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
       "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
       "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
@@ -147,7 +169,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
