@@ -4,7 +4,7 @@
     {
       "name": "Hydrexiumtab",
       "type": "tab",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "LingotdeBlutenium",
       "type": "item",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +314,7 @@
     {
       "name": "Luckyblockcasse",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -364,7 +364,7 @@
     {
       "name": "Tetedegrappin",
       "type": "item",
-      "sortid": 35,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -374,12 +374,110 @@
     {
       "name": "Grappin",
       "type": "gun",
-      "sortid": 35,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "grappin",
       "path": "~/Mechanic"
+    },
+    {
+      "name": "ArmureenHydrexiumavence",
+      "type": "armor",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armureen_hydrexiumavence",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "PlaqueHydrexium",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plaque_hydrexium",
+      "path": "~/Item"
+    },
+    {
+      "name": "CasqueeffetHydrexiumavence",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "casqueeffet_hydrexiumavence",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "PlastroneffetHydrexiumavence",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastroneffet_hydrexiumavence",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "JambiereseffetHydrexiumavence",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jambiereseffet_hydrexiumavence",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "BotteseffetHydrexiumavence",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "botteseffet_hydrexiumavence",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [],
@@ -396,6 +494,8 @@
       "item.hydrexium_1_16.lingotde_blutenium": "Lingotde Blutenium",
       "block.hydrexium_1_16.mineraisde_slavicnium": "Minerais de Slavicnium",
       "block.hydrexium_1_16.mineraisde_fauconium": "Minerais de Fauconium",
+      "item.hydrexium_1_16.armureen_hydrexiumavence_leggings": "Jambières en Hydrexium avencé",
+      "item.hydrexium_1_16.armureen_hydrexiumavence_boots": "Bottes en Hydrexium avencé",
       "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
       "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
       "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
@@ -405,17 +505,20 @@
       "item.hydrexium_1_16.souris_spawn_egg": "Souris Spawn Egg",
       "block.hydrexium_1_16.station_dhammermk_2": "Station Dhammermk 2",
       "block.hydrexium_1_16.station_dhammermk_1": "Station Dhammermk 1",
+      "item.hydrexium_1_16.armureen_hydrexiumavence_helmet": "Casque en Hydrexium avencé",
       "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
       "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
       "block.hydrexium_1_16.fauconiumbloc": "Fauconium bloc",
       "block.hydrexium_1_16.mercurybloc": "Mercury bloc",
       "block.hydrexium_1_16.inferniumbloc": "Infernium bloc",
       "block.hydrexium_1_16.infinitybloc": "Infinity bloc",
+      "item.hydrexium_1_16.plaque_hydrexium": "Plaque en Hydrexium",
       "itemGroup.tabhydrexiumtab": "Hydrexium ",
       "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
       "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
       "block.hydrexium_1_16.compresseur": "Compresseur",
       "item.hydrexium_1_16.grappin": "Grappin",
+      "item.hydrexium_1_16.armureen_hydrexiumavence_chestplate": "Plastron en Hydrexium avencé",
       "block.hydrexium_1_16.slavicniumbloc": "Slavicnium bloc",
       "block.hydrexium_1_16.luckyblock": "Lucky block en Hydrexium",
       "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
@@ -464,7 +567,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
