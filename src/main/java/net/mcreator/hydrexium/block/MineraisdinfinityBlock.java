@@ -46,7 +46,7 @@ public class MineraisdinfinityBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:mineraisdinfinity")
 	public static final Block block = null;
 	public MineraisdinfinityBlock(Hydrexium116ModElements instance) {
-		super(instance, 11);
+		super(instance, 12);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

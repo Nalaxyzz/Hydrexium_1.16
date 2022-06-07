@@ -24,7 +24,7 @@ public class FauconiumblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:fauconiumbloc")
 	public static final Block block = null;
 	public FauconiumblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class FauconiumblocBlock extends Hydrexium116ModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(FauconiumblocBlock.block, (int) (1)));
 		}
 	}
 }

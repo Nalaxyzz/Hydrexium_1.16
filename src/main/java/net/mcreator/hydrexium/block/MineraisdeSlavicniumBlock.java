@@ -46,7 +46,7 @@ public class MineraisdeSlavicniumBlock extends Hydrexium116ModElements.ModElemen
 	@ObjectHolder("hydrexium_1_16:mineraisde_slavicnium")
 	public static final Block block = null;
 	public MineraisdeSlavicniumBlock(Hydrexium116ModElements instance) {
-		super(instance, 14);
+		super(instance, 15);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

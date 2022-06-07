@@ -23,7 +23,7 @@ public class StationDhammermk1Block extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:station_dhammermk_1")
 	public static final Block block = null;
 	public StationDhammermk1Block(Hydrexium116ModElements instance) {
-		super(instance, 30);
+		super(instance, 31);
 	}
 
 	@Override

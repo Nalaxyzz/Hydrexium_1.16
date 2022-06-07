@@ -23,7 +23,7 @@ public class Compresseurmk2Block extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:compresseurmk_2")
 	public static final Block block = null;
 	public Compresseurmk2Block(Hydrexium116ModElements instance) {
-		super(instance, 29);
+		super(instance, 30);
 	}
 
 	@Override

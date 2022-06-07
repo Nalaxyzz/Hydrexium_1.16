@@ -24,7 +24,7 @@ public class MercuryblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:mercurybloc")
 	public static final Block block = null;
 	public MercuryblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class MercuryblocBlock extends Hydrexium116ModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(MercuryblocBlock.block, (int) (1)));
 		}
 	}
 }

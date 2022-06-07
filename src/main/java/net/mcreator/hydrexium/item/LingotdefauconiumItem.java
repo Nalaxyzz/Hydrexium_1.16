@@ -16,7 +16,7 @@ public class LingotdefauconiumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:lingotdefauconium")
 	public static final Item block = null;
 	public LingotdefauconiumItem(Hydrexium116ModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class VoidiumblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:voidiumbloc")
 	public static final Block block = null;
 	public VoidiumblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 20);
+		super(instance, 21);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class VoidiumblocBlock extends Hydrexium116ModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(VoidiumblocBlock.block, (int) (1)));
 		}
 	}
 }

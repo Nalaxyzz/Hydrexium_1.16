@@ -30,7 +30,7 @@ import java.util.Map;
 @Hydrexium116ModElements.ModElement.Tag
 public class LuckyblockcasseProcedure extends Hydrexium116ModElements.ModElement {
 	public LuckyblockcasseProcedure(Hydrexium116ModElements instance) {
-		super(instance, 36);
+		super(instance, 38);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -93,12 +93,12 @@ public class LuckyblockcasseProcedure extends Hydrexium116ModElements.ModElement
 				world.addEntity(entityToSpawn);
 			}
 		} else if (((LuckyBlock) < 0.1)) {
-			world.setBlockState(new BlockPos((int) x, (int) (y + 0), (int) z), HydrexiumblocBlock.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), HydrexiumblocBlock.block.getDefaultState(), 3);
 			world.setBlockState(new BlockPos((int) x, (int) (y + 0), (int) z), LuckyblockBlock.block.getDefaultState(), 3);
-			world.setBlockState(new BlockPos((int) x, (int) (y + 2), (int) z), Blocks.POLISHED_DIORITE.getDefaultState(), 3);
-			world.setBlockState(new BlockPos((int) x, (int) (y + 3), (int) z), Blocks.COBBLESTONE.getDefaultState(), 3);
-			world.setBlockState(new BlockPos((int) x, (int) (y + 4), (int) z), Blocks.CRYING_OBSIDIAN.getDefaultState(), 3);
-			world.setBlockState(new BlockPos((int) x, (int) (y + 5), (int) z), InferniumblocBlock.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 0), (int) z), Blocks.POLISHED_DIORITE.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 0), (int) z), Blocks.COBBLESTONE.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 0), (int) z), Blocks.CRYING_OBSIDIAN.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 0), (int) z), InferniumblocBlock.block.getDefaultState(), 3);
 			if (world instanceof ServerWorld) {
 				Entity entityToSpawn = new PigEntity(EntityType.PIG, (World) world);
 				entityToSpawn.setLocationAndAngles(x, (y + 6), z, world.getRandom().nextFloat() * 360F, 0);

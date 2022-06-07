@@ -31,7 +31,7 @@ public class LuckyblockBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:luckyblock")
 	public static final Block block = null;
 	public LuckyblockBlock(Hydrexium116ModElements instance) {
-		super(instance, 27);
+		super(instance, 28);
 	}
 
 	@Override

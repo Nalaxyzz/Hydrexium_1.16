@@ -24,7 +24,7 @@ public class OxoniumblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:oxoniumbloc")
 	public static final Block block = null;
 	public OxoniumblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 24);
+		super(instance, 25);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class OxoniumblocBlock extends Hydrexium116ModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(OxoniumblocBlock.block, (int) (1)));
 		}
 	}
 }

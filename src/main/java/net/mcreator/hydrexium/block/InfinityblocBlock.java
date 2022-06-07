@@ -24,7 +24,7 @@ public class InfinityblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:infinitybloc")
 	public static final Block block = null;
 	public InfinityblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class InfinityblocBlock extends Hydrexium116ModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(InfinityblocBlock.block, (int) (1)));
 		}
 	}
 }

@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Oxoniumbloc"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

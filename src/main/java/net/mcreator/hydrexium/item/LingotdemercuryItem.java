@@ -16,7 +16,7 @@ public class LingotdemercuryItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:lingotdemercury")
 	public static final Item block = null;
 	public LingotdemercuryItem(Hydrexium116ModElements instance) {
-		super(instance, 2);
+		super(instance, 3);
 	}
 
 	@Override

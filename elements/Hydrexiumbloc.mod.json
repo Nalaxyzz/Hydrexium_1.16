@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Hydrexiumbloc",
+    "name": "Hydrexium bloc",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Hydrexiumbloc"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

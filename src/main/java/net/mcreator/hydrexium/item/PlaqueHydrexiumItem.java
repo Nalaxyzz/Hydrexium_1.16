@@ -16,7 +16,7 @@ public class PlaqueHydrexiumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:plaque_hydrexium")
 	public static final Item block = null;
 	public PlaqueHydrexiumItem(Hydrexium116ModElements instance) {
-		super(instance, 38);
+		super(instance, 2);
 	}
 
 	@Override
