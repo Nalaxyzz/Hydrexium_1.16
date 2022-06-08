@@ -11,16 +11,6 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "image",
-        "data": {
-          "image": "upgrade_stationguimk2.png",
-          "use1Xscale": false,
-          "name": "upgrade_stationguimk2.png",
-          "x": 294,
-          "y": 125
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
@@ -80,8 +70,8 @@
           "width": 50,
           "height": 20,
           "name": "Craft",
-          "x": 231,
-          "y": 98
+          "x": 232,
+          "y": 93
         }
       }
     ]

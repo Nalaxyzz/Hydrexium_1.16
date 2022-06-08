@@ -480,16 +480,6 @@
       "path": "~/Procedure"
     },
     {
-      "name": "HydrexiumFlower",
-      "type": "plant",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hydrexium_flower",
-      "path": "~/Mechanic"
-    },
-    {
       "name": "Hydrexiumplantestage0",
       "type": "block",
       "sortid": 45,
@@ -558,6 +548,200 @@
       "ids": {},
       "registry_name": "station_dhammermk_1gui",
       "path": "~/Gui"
+    },
+    {
+      "name": "GraineenHydrexium",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "graineen_hydrexium",
+      "path": "~/Item"
+    },
+    {
+      "name": "VerificationGraineHydrexium",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "verification_graine_hydrexium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Stage0GraineHydrexium",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stage_0_graine_hydrexium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Stage1GraineHydrexium",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stage_1_graine_hydrexium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Stage2graineHydrexium",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stage_2graine_hydrexium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "ProcedureGraineHydrexium",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_graine_hydrexium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "DropGraineHydrexium",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drop_graine_hydrexium",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [],
@@ -567,7 +751,7 @@
       "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot en Hydrexium",
       "block.hydrexium_1_16.oxoniumbloc": "Oxonium bloc",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
-      "block.hydrexium_1_16.compresseurmk_2": "Compresseurmk 2",
+      "block.hydrexium_1_16.compresseurmk_2": "Compresseur mk2",
       "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
       "item.hydrexium_1_16.tetedegrappin": " Tête de Grappin",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
@@ -582,7 +766,6 @@
       "block.hydrexium_1_16.voidiumbloc": "Voidium bloc",
       "entity.hydrexium_1_16.souris": "Souris",
       "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
-      "block.hydrexium_1_16.hydrexium_flower": "Fleur en Hydrexium",
       "item.hydrexium_1_16.souris_spawn_egg": "Souris Spawn Egg",
       "block.hydrexium_1_16.station_dhammermk_2": "Station Dhammermk 2",
       "block.hydrexium_1_16.hydrexiumplantestage_2": "Hydrexiumplantestage 2",
@@ -595,6 +778,7 @@
       "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
       "block.hydrexium_1_16.fauconiumbloc": "Fauconium bloc",
       "block.hydrexium_1_16.mercurybloc": "Mercury bloc",
+      "item.hydrexium_1_16.graineen_hydrexium": "Graine en Hydrexium",
       "block.hydrexium_1_16.inferniumbloc": "Infernium bloc",
       "block.hydrexium_1_16.infinitybloc": "Infinity bloc",
       "item.hydrexium_1_16.plaque_hydrexium": "Plaque en Hydrexium",
@@ -652,7 +836,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.0.8",
+    "version": "1.1.0",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

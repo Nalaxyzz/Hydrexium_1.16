@@ -51,8 +51,6 @@ public class StationDhammermk1guiGuiWindow extends ContainerScreen<StationDhamme
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("hydrexium_1_16:textures/upgrade_stationguimk2.png"));
-		this.blit(ms, this.guiLeft + 168, this.guiTop + 88, 0, 0, 176, 166, 176, 166);
 		RenderSystem.disableBlend();
 	}
 
@@ -84,7 +82,7 @@ public class StationDhammermk1guiGuiWindow extends ContainerScreen<StationDhamme
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 105, this.guiTop + 61, 50, 20, new StringTextComponent("Craft"), e -> {
+		this.addButton(new Button(this.guiLeft + 106, this.guiTop + 56, 50, 20, new StringTextComponent("Craft"), e -> {
 			if (true) {
 				Hydrexium116Mod.PACKET_HANDLER.sendToServer(new StationDhammermk1guiGui.ButtonPressedMessage(0, x, y, z));
 				StationDhammermk1guiGui.handleButtonAction(entity, 0, x, y, z);

@@ -82,7 +82,7 @@ public class CompressorMK2guiGuiWindow extends ContainerScreen<CompressorMK2guiG
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 96, this.guiTop + 52, 50, 20, new StringTextComponent("Craft"), e -> {
+		this.addButton(new Button(this.guiLeft + 97, this.guiTop + 48, 50, 20, new StringTextComponent("Craft"), e -> {
 			if (true) {
 				Hydrexium116Mod.PACKET_HANDLER.sendToServer(new CompressorMK2guiGui.ButtonPressedMessage(0, x, y, z));
 				CompressorMK2guiGui.handleButtonAction(entity, 0, x, y, z);
