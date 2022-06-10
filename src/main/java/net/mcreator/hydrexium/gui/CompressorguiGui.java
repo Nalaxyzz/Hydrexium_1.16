@@ -28,6 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.mcreator.hydrexium.procedures.Compressormk1Procedure;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 import net.mcreator.hydrexium.Hydrexium116Mod;
 
@@ -113,8 +114,6 @@ public class CompressorguiGui extends Hydrexium116ModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 17) {
-			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 17) {
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 17) {
@@ -136,6 +135,8 @@ public class CompressorguiGui extends Hydrexium116ModElements.ModElement {
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
+			}));
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 17) {
 			}));
 			int si;
 			int sj;
@@ -384,6 +385,16 @@ public class CompressorguiGui extends Hydrexium116ModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				Compressormk1Procedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

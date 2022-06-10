@@ -16,20 +16,6 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 0,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #0",
-          "x": 150,
-          "y": 53
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
@@ -151,11 +137,28 @@
         "type": "button",
         "data": {
           "text": "Craft",
+          "onClick": {
+            "name": "Compressormk1"
+          },
           "width": 50,
           "height": 20,
           "name": "Craft",
           "x": 223,
           "y": 86
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 53
         }
       }
     ]

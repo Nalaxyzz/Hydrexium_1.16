@@ -12,7 +12,6 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
 
-import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
@@ -47,7 +46,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.hydrexium.procedures.Compressormk1Procedure;
 import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
 import net.mcreator.hydrexium.gui.CompressorguiGui;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
@@ -55,10 +53,7 @@ import net.mcreator.hydrexium.Hydrexium116ModElements;
 import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
-import java.util.Random;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
@@ -99,32 +94,6 @@ public class CompresseurBlock extends Hydrexium116ModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean moving) {
-			super.onBlockAdded(state, world, pos, oldState, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
-		}
-
-		@Override
-		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-			super.tick(state, world, pos, random);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				Compressormk1Procedure.executeProcedure($_dependencies);
-			}
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, 1);
 		}
 
 		@Override
