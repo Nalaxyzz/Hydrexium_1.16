@@ -30,7 +30,7 @@ import java.util.Map;
 @Hydrexium116ModElements.ModElement.Tag
 public class LuckyblockcasseProcedure extends Hydrexium116ModElements.ModElement {
 	public LuckyblockcasseProcedure(Hydrexium116ModElements instance) {
-		super(instance, 41);
+		super(instance, 48);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

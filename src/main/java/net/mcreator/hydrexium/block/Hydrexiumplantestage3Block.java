@@ -35,7 +35,7 @@ public class Hydrexiumplantestage3Block extends Hydrexium116ModElements.ModEleme
 	@ObjectHolder("hydrexium_1_16:hydrexiumplantestage_3")
 	public static final Block block = null;
 	public Hydrexiumplantestage3Block(Hydrexium116ModElements instance) {
-		super(instance, 49);
+		super(instance, 56);
 	}
 
 	@Override

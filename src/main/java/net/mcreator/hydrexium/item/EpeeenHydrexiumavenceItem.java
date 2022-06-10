@@ -17,7 +17,7 @@ public class EpeeenHydrexiumavenceItem extends Hydrexium116ModElements.ModElemen
 	@ObjectHolder("hydrexium_1_16:epeeen_hydrexiumavence")
 	public static final Item block = null;
 	public EpeeenHydrexiumavenceItem(Hydrexium116ModElements instance) {
-		super(instance, 61);
+		super(instance, 44);
 	}
 
 	@Override

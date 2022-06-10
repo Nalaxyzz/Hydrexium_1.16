@@ -24,7 +24,7 @@ public class MercuryblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:mercurybloc")
 	public static final Block block = null;
 	public MercuryblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override

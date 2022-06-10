@@ -46,7 +46,7 @@ public class MineraisDoxoniumBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:minerais_doxonium")
 	public static final Block block = null;
 	public MineraisDoxoniumBlock(Hydrexium116ModElements instance) {
-		super(instance, 18);
+		super(instance, 19);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -102,7 +102,7 @@ public class MineraisDoxoniumBlock extends Hydrexium116ModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.THE_END)
 						dimensionCriteria = true;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("hydrexium_1_16:test")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("hydrexium_1_16:deleted_mod_element")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

@@ -65,7 +65,7 @@ public class StationDhammermk2Block extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:station_dhammermk_2")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public StationDhammermk2Block(Hydrexium116ModElements instance) {
-		super(instance, 34);
+		super(instance, 35);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

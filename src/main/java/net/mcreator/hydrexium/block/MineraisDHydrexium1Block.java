@@ -46,7 +46,7 @@ public class MineraisDHydrexium1Block extends Hydrexium116ModElements.ModElement
 	@ObjectHolder("hydrexium_1_16:minerais_d_hydrexium_1")
 	public static final Block block = null;
 	public MineraisDHydrexium1Block(Hydrexium116ModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

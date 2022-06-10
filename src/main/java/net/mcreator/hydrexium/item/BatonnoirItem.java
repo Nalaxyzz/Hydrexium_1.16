@@ -16,7 +16,7 @@ public class BatonnoirItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:batonnoir")
 	public static final Item block = null;
 	public BatonnoirItem(Hydrexium116ModElements instance) {
-		super(instance, 60);
+		super(instance, 43);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class TetedegrappinItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:tetedegrappin")
 	public static final Item block = null;
 	public TetedegrappinItem(Hydrexium116ModElements instance) {
-		super(instance, 35);
+		super(instance, 36);
 	}
 
 	@Override

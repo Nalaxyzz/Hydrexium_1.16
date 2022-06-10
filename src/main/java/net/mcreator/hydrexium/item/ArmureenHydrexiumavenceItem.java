@@ -38,7 +38,7 @@ public class ArmureenHydrexiumavenceItem extends Hydrexium116ModElements.ModElem
 	@ObjectHolder("hydrexium_1_16:armureen_hydrexiumavence_boots")
 	public static final Item boots = null;
 	public ArmureenHydrexiumavenceItem(Hydrexium116ModElements instance) {
-		super(instance, 37);
+		super(instance, 39);
 	}
 
 	@Override

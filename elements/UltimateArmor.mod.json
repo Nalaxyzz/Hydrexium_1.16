@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "ultimate_head",
+    "textureHelmet": "texturehyridiumultime_1",
     "enableBody": true,
-    "textureBody": "ultimate_body",
+    "textureBody": "texturehyridiumultime",
     "enableLeggings": true,
-    "textureLeggings": "ultimate_leggings",
+    "textureLeggings": "texturehyridium3ultime",
     "enableBoots": true,
-    "textureBoots": "ultimate_boots",
+    "textureBoots": "texturehyridium4ultime",
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
     "armorTextureFile": "nightmarev3_",
-    "helmetName": "Ultimate Helmet",
-    "bodyName": "Ultimate Chestplate",
-    "leggingsName": "Ultimate Leggings",
-    "bootsName": "Ultimate Boots",
+    "helmetName": "Casque en Hydrexium Ultime",
+    "bodyName": "Plastron en Hydrexium Ultime",
+    "leggingsName": "Jambières en Hydrexium Ultime",
+    "bootsName": "Bottes en Hydrexium Ultime",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,20 +38,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
+    "maxDamage": 50,
+    "damageValueHelmet": 11,
+    "damageValueBody": 15,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 11,
     "enchantability": 9,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "toughness": 8.0,
+    "knockbackResistance": 5.0,
     "equipSound": {
       "value": ""
     },
     "repairItems": [
       {
-        "value": "CUSTOM:UltimateGem"
+        "value": "CUSTOM:CoeurenHydrexium"
       }
     ]
   }

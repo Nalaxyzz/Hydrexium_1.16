@@ -29,7 +29,7 @@ public class HydrexiumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:hydrexium_boots")
 	public static final Item boots = null;
 	public HydrexiumItem(Hydrexium116ModElements instance) {
-		super(instance, 59);
+		super(instance, 40);
 	}
 
 	@Override

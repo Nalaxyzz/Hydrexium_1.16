@@ -29,7 +29,7 @@ public class UltimateArmorItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:ultimate_armor_boots")
 	public static final Item boots = null;
 	public UltimateArmorItem(Hydrexium116ModElements instance) {
-		super(instance, 64);
+		super(instance, 38);
 	}
 
 	@Override
@@ -37,12 +37,12 @@ public class UltimateArmorItem extends Hydrexium116ModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{11, 15, 15, 11}[slot.getIndex()];
 			}
 
 			@Override
@@ -57,7 +57,7 @@ public class UltimateArmorItem extends Hydrexium116ModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(UltimateGemItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(CoeurenHydrexiumItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -68,12 +68,12 @@ public class UltimateArmorItem extends Hydrexium116ModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 8f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
