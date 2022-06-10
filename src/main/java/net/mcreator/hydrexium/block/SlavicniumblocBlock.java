@@ -24,7 +24,7 @@ public class SlavicniumblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:slavicniumbloc")
 	public static final Block block = null;
 	public SlavicniumblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 22);
+		super(instance, 25);
 	}
 
 	@Override

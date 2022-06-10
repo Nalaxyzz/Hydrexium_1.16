@@ -113,11 +113,11 @@ public class StationDhammermk1guiGui extends Hydrexium116ModElements.ModElement 
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 44) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 44) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 17) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 30, 18) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 44) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 54, 44) {
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 124, 35) {
 				@Override

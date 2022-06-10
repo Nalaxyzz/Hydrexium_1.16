@@ -51,6 +51,10 @@ public class StationDhammermk1guiGuiWindow extends ContainerScreen<StationDhamme
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("hydrexium_1_16:textures/upgradetableiconplus.png"));
+		this.blit(ms, this.guiLeft + 32, this.guiTop + 43, 0, 0, 13, 13, 13, 13);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("hydrexium_1_16:textures/upgradetableiconhammer.png"));
+		this.blit(ms, this.guiLeft + 123, this.guiTop + 16, 0, 0, 15, 15, 15, 15);
 		RenderSystem.disableBlend();
 	}
 

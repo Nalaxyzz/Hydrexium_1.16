@@ -47,7 +47,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
-import net.mcreator.hydrexium.gui.CompressorMK2guiGui;
+import net.mcreator.hydrexium.gui.Compressorgui2Gui;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 import javax.annotation.Nullable;
@@ -65,7 +65,7 @@ public class Compresseurmk2Block extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:compresseurmk_2")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public Compresseurmk2Block(Hydrexium116ModElements instance) {
-		super(instance, 30);
+		super(instance, 32);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
@@ -112,7 +112,7 @@ public class Compresseurmk2Block extends Hydrexium116ModElements.ModElement {
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new CompressorMK2guiGui.GuiContainerMod(id, inventory,
+						return new Compressorgui2Gui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -234,7 +234,7 @@ public class Compresseurmk2Block extends Hydrexium116ModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new CompressorMK2guiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new Compressorgui2Gui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override

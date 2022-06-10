@@ -10,7 +10,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
@@ -22,6 +21,7 @@ import net.mcreator.hydrexium.procedures.PlastroneffetHydrexiumavenceProcedure;
 import net.mcreator.hydrexium.procedures.JambiereseffetHydrexiumavenceProcedure;
 import net.mcreator.hydrexium.procedures.CasqueeffetHydrexiumavenceProcedure;
 import net.mcreator.hydrexium.procedures.BotteseffetHydrexiumavenceProcedure;
+import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 import java.util.Map;
@@ -38,7 +38,7 @@ public class ArmureenHydrexiumavenceItem extends Hydrexium116ModElements.ModElem
 	@ObjectHolder("hydrexium_1_16:armureen_hydrexiumavence_boots")
 	public static final Item boots = null;
 	public ArmureenHydrexiumavenceItem(Hydrexium116ModElements instance) {
-		super(instance, 36);
+		super(instance, 37);
 	}
 
 	@Override
@@ -85,7 +85,7 @@ public class ArmureenHydrexiumavenceItem extends Hydrexium116ModElements.ModElem
 				return 1f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "hydrexium_1_16:textures/models/armor/corrupt_upgraded_netherite_____layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
@@ -105,7 +105,7 @@ public class ArmureenHydrexiumavenceItem extends Hydrexium116ModElements.ModElem
 				}
 			}
 		}.setRegistryName("armureen_hydrexiumavence_helmet"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "hydrexium_1_16:textures/models/armor/corrupt_upgraded_netherite_____layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
@@ -124,7 +124,7 @@ public class ArmureenHydrexiumavenceItem extends Hydrexium116ModElements.ModElem
 				}
 			}
 		}.setRegistryName("armureen_hydrexiumavence_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "hydrexium_1_16:textures/models/armor/corrupt_upgraded_netherite_____layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")
@@ -143,7 +143,7 @@ public class ArmureenHydrexiumavenceItem extends Hydrexium116ModElements.ModElem
 				}
 			}
 		}.setRegistryName("armureen_hydrexiumavence_leggings"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "hydrexium_1_16:textures/models/armor/corrupt_upgraded_netherite_____layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1")

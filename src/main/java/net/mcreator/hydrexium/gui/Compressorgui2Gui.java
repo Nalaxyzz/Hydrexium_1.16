@@ -36,11 +36,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @Hydrexium116ModElements.ModElement.Tag
-public class CompressorMK2guiGui extends Hydrexium116ModElements.ModElement {
+public class Compressorgui2Gui extends Hydrexium116ModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public CompressorMK2guiGui(Hydrexium116ModElements instance) {
-		super(instance, 50);
+	public Compressorgui2Gui(Hydrexium116ModElements instance) {
+		super(instance, 62);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -51,12 +51,12 @@ public class CompressorMK2guiGui extends Hydrexium116ModElements.ModElement {
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("compressor_mk_2gui"));
+			event.getRegistry().register(containerType.setRegistryName("compressorgui_2"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, CompressorMK2guiGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, Compressorgui2GuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {

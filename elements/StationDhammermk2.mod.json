@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Station Dhammermk 2",
+    "name": "Station Dhammer mk2",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,7 +52,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "ANVIL"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "ANVIL"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -84,9 +84,9 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "hasInventory": true,
+    "guiBoundTo": "StationDhammermk1gui",
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

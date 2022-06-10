@@ -20,11 +20,11 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class CompressorMK2guiGuiWindow extends ContainerScreen<CompressorMK2guiGui.GuiContainerMod> {
+public class Compressorgui2GuiWindow extends ContainerScreen<Compressorgui2Gui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	public CompressorMK2guiGuiWindow(CompressorMK2guiGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public Compressorgui2GuiWindow(Compressorgui2Gui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -34,7 +34,7 @@ public class CompressorMK2guiGuiWindow extends ContainerScreen<CompressorMK2guiG
 		this.xSize = 176;
 		this.ySize = 166;
 	}
-	private static final ResourceLocation texture = new ResourceLocation("hydrexium_1_16:textures/compressor_mk_2gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("hydrexium_1_16:textures/compressorgui_2.png");
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -82,10 +82,10 @@ public class CompressorMK2guiGuiWindow extends ContainerScreen<CompressorMK2guiG
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 97, this.guiTop + 48, 50, 20, new StringTextComponent("Craft"), e -> {
+		this.addButton(new Button(this.guiLeft + 97, this.guiTop + 49, 50, 20, new StringTextComponent("Craft"), e -> {
 			if (true) {
-				Hydrexium116Mod.PACKET_HANDLER.sendToServer(new CompressorMK2guiGui.ButtonPressedMessage(0, x, y, z));
-				CompressorMK2guiGui.handleButtonAction(entity, 0, x, y, z);
+				Hydrexium116Mod.PACKET_HANDLER.sendToServer(new Compressorgui2Gui.ButtonPressedMessage(0, x, y, z));
+				Compressorgui2Gui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
 	}

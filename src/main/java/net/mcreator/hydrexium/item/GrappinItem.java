@@ -43,7 +43,7 @@ public class GrappinItem extends Hydrexium116ModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletgrappin").setRegistryName("entitybulletgrappin");
 	public GrappinItem(Hydrexium116ModElements instance) {
-		super(instance, 34);
+		super(instance, 36);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GrappinRenderer.ModelRegisterHandler());
 	}
 

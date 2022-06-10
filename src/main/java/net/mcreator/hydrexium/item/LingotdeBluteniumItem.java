@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 @Hydrexium116ModElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class LingotdeBluteniumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:lingotde_blutenium")
 	public static final Item block = null;
 	public LingotdeBluteniumItem(Hydrexium116ModElements instance) {
-		super(instance, 35);
+		super(instance, 10);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class LingotdeBluteniumItem extends Hydrexium116ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(HydrexiumtabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("lingotde_blutenium");
 		}
 

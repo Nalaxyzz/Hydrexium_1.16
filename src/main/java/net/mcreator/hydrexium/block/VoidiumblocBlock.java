@@ -24,7 +24,7 @@ public class VoidiumblocBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:voidiumbloc")
 	public static final Block block = null;
 	public VoidiumblocBlock(Hydrexium116ModElements instance) {
-		super(instance, 21);
+		super(instance, 24);
 	}
 
 	@Override

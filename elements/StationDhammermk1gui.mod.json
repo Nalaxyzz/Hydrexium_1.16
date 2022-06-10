@@ -20,7 +20,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 141,
+          "x": 132,
           "y": 80
         }
       },
@@ -34,8 +34,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 168,
-          "y": 53
+          "x": 155,
+          "y": 54
         }
       },
       {
@@ -48,7 +48,7 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
-          "x": 186,
+          "x": 179,
           "y": 80
         }
       },
@@ -72,6 +72,26 @@
           "name": "Craft",
           "x": 232,
           "y": 93
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconplus.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconplus.png",
+          "x": 158,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconhammer.png",
+          "use1Xscale": true,
+          "name": "upgradetableiconhammer.png",
+          "x": 249,
+          "y": 53
         }
       }
     ]

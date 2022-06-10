@@ -85,7 +85,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "CompressorMK2gui",
+    "guiBoundTo": "Compressorgui2",
     "openGUIOnRightClick": true,
     "inventorySize": 10,
     "inventoryStackSize": 64,
