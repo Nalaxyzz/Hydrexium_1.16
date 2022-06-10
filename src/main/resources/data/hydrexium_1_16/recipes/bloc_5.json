@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "1": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingotdefauconium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:fauconiumbloc",
+    "count": 1
+  }
+}

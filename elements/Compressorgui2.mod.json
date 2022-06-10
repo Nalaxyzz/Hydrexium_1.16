@@ -151,6 +151,9 @@
         "type": "button",
         "data": {
           "text": "Craft",
+          "onClick": {
+            "name": "Compressormk2craft"
+          },
           "width": 50,
           "height": 20,
           "name": "Craft",

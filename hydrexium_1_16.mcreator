@@ -828,6 +828,365 @@
       "ids": {},
       "registry_name": "compressorgui_2",
       "path": "~/Gui"
+    },
+    {
+      "name": "StationHammerMk2Gui",
+      "type": "gui",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "station_hammer_mk_2_gui",
+      "path": "~/Gui"
+    },
+    {
+      "name": "UltimateArmor",
+      "type": "armor",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Four1",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four2",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four3",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four4",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four5",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_5",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four6",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_6",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four7",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_7",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four8",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_8",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four9",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_9",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four10",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_10",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc1",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc2",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc3",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc4",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc5",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_5",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc6",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_6",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc7",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_7",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Bloc8",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bloc_8",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft1",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft2",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft3",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft4",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft5",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_5",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft6",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_6",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft7",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_7",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Decraft8",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_8",
+      "path": "~/Craft"
+    },
+    {
+      "name": "CoeurenHydrexium",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coeuren_hydrexium",
+      "path": "~/Item"
+    },
+    {
+      "name": "CraftcoeurHydrexium",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftcoeur_hydrexium",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Compressormk2craft",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressormk_2craft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Eaunoir",
+      "type": "fluid",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eaunoir",
+      "path": "~/Mechanic"
+    },
+    {
+      "name": "Enderland",
+      "type": "dimension",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderland",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Mechanic"
     }
   ],
   "variable_elements": [],
@@ -840,6 +1199,7 @@
       "item.hydrexium_1_16.tetedegrappin": " Tête de Grappin",
       "item.hydrexium_1_16.ultimate_gem": "Ultimate Gem",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
+      "item.hydrexium_1_16.ultimate_armor_boots": "Ultimate Boots",
       "item.hydrexium_1_16.armureen_hydrexiumavence_leggings": "Jambières en Hydrexium avencé",
       "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
       "block.hydrexium_1_16.voidiumbloc": "Voidium bloc",
@@ -857,10 +1217,14 @@
       "block.hydrexium_1_16.mercurybloc": "Mercury bloc",
       "item.hydrexium_1_16.graineen_hydrexium": "Graine en Hydrexium",
       "block.hydrexium_1_16.inferniumbloc": "Infernium bloc",
+      "fluid.eaunoir": "Eaunoir",
       "item.hydrexium_1_16.epeeen_hydrexiumavence": "Epee en Hydrexium avencé",
+      "item.hydrexium_1_16.ultimate_armor_chestplate": "Ultimate Chestplate",
       "block.hydrexium_1_16.infinitybloc": "Infinity bloc",
       "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
+      "item.hydrexium_1_16.ultimate_armor_leggings": "Ultimate Leggings",
       "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
+      "item.hydrexium_1_16.ultimate_armor_helmet": "Ultimate Helmet",
       "item.hydrexium_1_16.grappin": "Grappin",
       "block.hydrexium_1_16.luckyblock": "Lucky block en Hydrexium",
       "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
@@ -868,6 +1232,7 @@
       "block.hydrexium_1_16.oxoniumbloc": "Oxonium bloc",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
       "block.hydrexium_1_16.compresseurmk_2": "Compresseur mk2",
+      "item.hydrexium_1_16.coeuren_hydrexium": "Coeur en Hydrexium",
       "item.hydrexium_1_16.lingotde_blutenium": "Lingot de Blutenium",
       "block.hydrexium_1_16.mineraisde_slavicnium": "Minerais de Slavicnium",
       "block.hydrexium_1_16.mineraisde_fauconium": "Minerais de Fauconium",
@@ -876,6 +1241,7 @@
       "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
       "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
       "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+      "item.hydrexium_1_16.enderland": "Enderland Portal Igniter",
       "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
       "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
       "block.hydrexium_1_16.fauconiumbloc": "Fauconium bloc",
@@ -883,6 +1249,7 @@
       "itemGroup.tabhydrexiumtab": "Hydrexium ",
       "block.hydrexium_1_16.compresseur": "Compresseur",
       "item.hydrexium_1_16.batonnoir": "Baton noir",
+      "item.hydrexium_1_16.eaunoir_bucket": "Eaunoir Bucket",
       "item.hydrexium_1_16.armureen_hydrexiumavence_chestplate": "Plastron en Hydrexium avencé",
       "block.hydrexium_1_16.minerais_d_ultimate": "Minerais D Ultimate",
       "block.hydrexium_1_16.slavicniumbloc": "Slavicnium bloc",
@@ -930,7 +1297,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.1.1 [ALpha]",
+    "version": "1.1.1 [Bêta]",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

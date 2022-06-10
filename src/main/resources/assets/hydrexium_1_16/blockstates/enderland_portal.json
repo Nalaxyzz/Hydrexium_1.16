@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "hydrexium_1_16:block/enderland_portal_ew"
+    },
+    "axis=x": {
+      "model": "hydrexium_1_16:block/enderland_portal_ns"
+    }
+  }
+}

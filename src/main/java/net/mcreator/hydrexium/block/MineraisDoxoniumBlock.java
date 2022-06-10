@@ -102,6 +102,8 @@ public class MineraisDoxoniumBlock extends Hydrexium116ModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.THE_END)
 						dimensionCriteria = true;
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("hydrexium_1_16:test")))
+						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
 					return super.generate(world, generator, rand, pos, config);

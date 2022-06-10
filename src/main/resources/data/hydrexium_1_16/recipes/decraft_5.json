@@ -1,0 +1,16 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:mercurybloc"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:lingotdemercury",
+    "count": 9
+  }
+}

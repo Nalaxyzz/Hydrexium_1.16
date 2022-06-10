@@ -1,0 +1,16 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:inferniumbloc"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:lingotdinfernium",
+    "count": 9
+  }
+}

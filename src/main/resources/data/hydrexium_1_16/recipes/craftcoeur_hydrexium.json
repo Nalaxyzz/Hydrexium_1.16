@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:plaque_hydrexium"
+    },
+    "1": {
+      "item": "minecraft:nether_star"
+    },
+    "2": {
+      "item": "hydrexium_1_16:plaque_hydrexium"
+    },
+    "3": {
+      "item": "minecraft:nether_star"
+    },
+    "4": {
+      "item": "minecraft:dragon_egg"
+    },
+    "5": {
+      "item": "minecraft:nether_star"
+    },
+    "6": {
+      "item": "hydrexium_1_16:plaque_hydrexium"
+    },
+    "7": {
+      "item": "minecraft:nether_star"
+    },
+    "8": {
+      "item": "hydrexium_1_16:plaque_hydrexium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:coeuren_hydrexium",
+    "count": 1
+  }
+}

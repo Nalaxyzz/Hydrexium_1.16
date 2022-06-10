@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "1": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingot_doxonium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:oxoniumbloc",
+    "count": 1
+  }
+}

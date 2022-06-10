@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "1": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:voidiumbloc",
+    "count": 1
+  }
+}

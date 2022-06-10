@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "1": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "4": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingot_dinfinity"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:infinitybloc",
+    "count": 1
+  }
+}
