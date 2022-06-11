@@ -10,6 +10,18 @@
     "textureLeggings": "texturehyridium3ultime",
     "enableBoots": true,
     "textureBoots": "texturehyridium4ultime",
+    "onHelmetTick": {
+      "name": "CasqueUltimeeffet"
+    },
+    "onBodyTick": {
+      "name": "PlastronUltimeeffet"
+    },
+    "onLeggingsTick": {
+      "name": "JambieresUltimeeffet"
+    },
+    "onBootsTick": {
+      "name": "BottesUltimeeffet"
+    },
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
