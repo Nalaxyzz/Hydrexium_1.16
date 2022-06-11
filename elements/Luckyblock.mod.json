@@ -33,7 +33,9 @@
       }
     ],
     "name": "Lucky block en Hydrexium",
-    "specialInfo": [],
+    "specialInfo": [
+      "Date de sortie V3"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
