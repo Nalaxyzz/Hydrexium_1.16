@@ -28,6 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
+import net.mcreator.hydrexium.procedures.StationHammerMk2Procedure;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 import net.mcreator.hydrexium.Hydrexium116Mod;
 
@@ -372,6 +373,13 @@ public class StationHammerMk2GuiGui extends Hydrexium116ModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				StationHammerMk2Procedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

@@ -67,6 +67,9 @@
         "type": "button",
         "data": {
           "text": "Craft",
+          "onClick": {
+            "name": "StationHammerMk1"
+          },
           "width": 50,
           "height": 20,
           "name": "Craft",

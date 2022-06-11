@@ -47,7 +47,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
-import net.mcreator.hydrexium.gui.StationDhammermk1guiGui;
+import net.mcreator.hydrexium.gui.StationHammerMk2GuiGui;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 import javax.annotation.Nullable;
@@ -113,7 +113,7 @@ public class StationDhammermk2Block extends Hydrexium116ModElements.ModElement {
 
 					@Override
 					public Container createMenu(int id, PlayerInventory inventory, PlayerEntity player) {
-						return new StationDhammermk1guiGui.GuiContainerMod(id, inventory,
+						return new StationHammerMk2GuiGui.GuiContainerMod(id, inventory,
 								new PacketBuffer(Unpooled.buffer()).writeBlockPos(new BlockPos(x, y, z)));
 					}
 				}, new BlockPos(x, y, z));
@@ -235,7 +235,7 @@ public class StationDhammermk2Block extends Hydrexium116ModElements.ModElement {
 
 		@Override
 		public Container createMenu(int id, PlayerInventory player) {
-			return new StationDhammermk1guiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
+			return new StationHammerMk2GuiGui.GuiContainerMod(id, player, new PacketBuffer(Unpooled.buffer()).writeBlockPos(this.getPos()));
 		}
 
 		@Override

@@ -1187,6 +1187,72 @@
         "ep": true
       },
       "path": "~/Mechanic"
+    },
+    {
+      "name": "HammerenInfernium",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammeren_infernium",
+      "path": "~/Item"
+    },
+    {
+      "name": "HammerenInfinity",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammeren_infinity",
+      "path": "~/Item"
+    },
+    {
+      "name": "HammerenHydrexium",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammeren_hydrexium",
+      "path": "~/Item"
+    },
+    {
+      "name": "StationHammerMk1",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "station_hammer_mk_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "StationHammerMk2",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "station_hammer_mk_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [],
@@ -1204,6 +1270,7 @@
       "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
       "block.hydrexium_1_16.voidiumbloc": "Voidium bloc",
       "entity.hydrexium_1_16.souris": "Souris",
+      "item.hydrexium_1_16.hammeren_hydrexium": "Hammer en Hydrexium",
       "item.hydrexium_1_16.souris_spawn_egg": "Souris Spawn Egg",
       "block.hydrexium_1_16.station_dhammermk_2": "Station Dhammer mk2",
       "block.hydrexium_1_16.hydrexiumplantestage_2": "Hydrexiumplantestage 2",
@@ -1230,6 +1297,7 @@
       "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
       "block.hydrexium_1_16.mineraisdinfinity": "Minerais dinfinity",
       "block.hydrexium_1_16.oxoniumbloc": "Oxonium bloc",
+      "item.hydrexium_1_16.hammeren_infernium": "Hammer en Infernium",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
       "block.hydrexium_1_16.compresseurmk_2": "Compresseur mk2",
       "item.hydrexium_1_16.coeuren_hydrexium": "Coeur en Hydrexium",
@@ -1241,6 +1309,7 @@
       "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
       "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
       "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
+      "item.hydrexium_1_16.hammeren_infinity": "Hammer en Infinity",
       "item.hydrexium_1_16.enderland": "Enderland Portal Igniter",
       "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
       "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",

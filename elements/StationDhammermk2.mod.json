@@ -54,7 +54,7 @@
     "material": {
       "value": "ANVIL"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -85,7 +85,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "StationDhammermk1gui",
+    "guiBoundTo": "StationHammerMk2Gui",
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,

@@ -54,7 +54,7 @@
     "material": {
       "value": "ANVIL"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
