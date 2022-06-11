@@ -43,7 +43,7 @@ public class SourisEntity extends Hydrexium116ModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.4f, 0.3f)).build("souris").setRegistryName("souris");
 	public SourisEntity(Hydrexium116ModElements instance) {
-		super(instance, 42);
+		super(instance, 45);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SourisRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

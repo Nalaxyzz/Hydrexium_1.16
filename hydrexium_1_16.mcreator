@@ -4,7 +4,7 @@
     {
       "name": "Hydrexiumtab",
       "type": "tab",
-      "sortid": 47,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +274,7 @@
     {
       "name": "Souris",
       "type": "mob",
-      "sortid": 42,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -314,7 +314,7 @@
     {
       "name": "Luckyblockcasse",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -410,7 +410,7 @@
     {
       "name": "CasqueeffetHydrexiumavence",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -428,7 +428,7 @@
     {
       "name": "PlastroneffetHydrexiumavence",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -446,7 +446,7 @@
     {
       "name": "JambiereseffetHydrexiumavence",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -464,7 +464,7 @@
     {
       "name": "BotteseffetHydrexiumavence",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -482,7 +482,7 @@
     {
       "name": "Hydrexiumplantestage0",
       "type": "block",
-      "sortid": 53,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -492,7 +492,7 @@
     {
       "name": "Hydrexiumplantestage1",
       "type": "block",
-      "sortid": 54,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -502,7 +502,7 @@
     {
       "name": "Hydrexiumplantestage2",
       "type": "block",
-      "sortid": 55,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -512,7 +512,7 @@
     {
       "name": "Hydrexiumplantestage3",
       "type": "block",
-      "sortid": 56,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -522,7 +522,7 @@
     {
       "name": "Compressorgui",
       "type": "gui",
-      "sortid": 57,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -532,7 +532,7 @@
     {
       "name": "StationDhammermk1gui",
       "type": "gui",
-      "sortid": 58,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -542,7 +542,7 @@
     {
       "name": "GraineenHydrexium",
       "type": "item",
-      "sortid": 41,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -552,7 +552,7 @@
     {
       "name": "VerificationGraineHydrexium",
       "type": "procedure",
-      "sortid": 59,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -582,7 +582,7 @@
     {
       "name": "Stage0GraineHydrexium",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -612,7 +612,7 @@
     {
       "name": "Stage1GraineHydrexium",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -642,7 +642,7 @@
     {
       "name": "Stage2graineHydrexium",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -672,7 +672,7 @@
     {
       "name": "ProcedureGraineHydrexium",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -706,7 +706,7 @@
     {
       "name": "DropGraineHydrexium",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -756,7 +756,7 @@
     {
       "name": "Compressormk1",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -802,7 +802,7 @@
     {
       "name": "Batonnoir",
       "type": "item",
-      "sortid": 43,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -812,7 +812,7 @@
     {
       "name": "EpeeenHydrexiumavence",
       "type": "tool",
-      "sortid": 44,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -822,7 +822,7 @@
     {
       "name": "Compressorgui2",
       "type": "gui",
-      "sortid": 66,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -832,7 +832,7 @@
     {
       "name": "StationHammerMk2Gui",
       "type": "gui",
-      "sortid": 67,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -858,7 +858,7 @@
     {
       "name": "Four1",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -868,7 +868,7 @@
     {
       "name": "Four2",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -878,7 +878,7 @@
     {
       "name": "Four3",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -888,7 +888,7 @@
     {
       "name": "Four4",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -898,7 +898,7 @@
     {
       "name": "Four5",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -908,7 +908,7 @@
     {
       "name": "Four6",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -918,7 +918,7 @@
     {
       "name": "Four7",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -928,7 +928,7 @@
     {
       "name": "Four8",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -938,7 +938,7 @@
     {
       "name": "Four9",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -948,7 +948,7 @@
     {
       "name": "Four10",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -958,7 +958,7 @@
     {
       "name": "Bloc1",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -968,7 +968,7 @@
     {
       "name": "Bloc2",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -978,7 +978,7 @@
     {
       "name": "Bloc3",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -988,7 +988,7 @@
     {
       "name": "Bloc4",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -998,7 +998,7 @@
     {
       "name": "Bloc5",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1008,7 +1008,7 @@
     {
       "name": "Bloc6",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1018,7 +1018,7 @@
     {
       "name": "Bloc7",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1028,7 +1028,7 @@
     {
       "name": "Bloc8",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1038,7 +1038,7 @@
     {
       "name": "Decraft1",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1048,7 +1048,7 @@
     {
       "name": "Decraft2",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1058,7 +1058,7 @@
     {
       "name": "Decraft3",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1068,7 +1068,7 @@
     {
       "name": "Decraft4",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1078,7 +1078,7 @@
     {
       "name": "Decraft5",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1088,7 +1088,7 @@
     {
       "name": "Decraft6",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1098,7 +1098,7 @@
     {
       "name": "Decraft7",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1108,7 +1108,7 @@
     {
       "name": "Decraft8",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1128,7 +1128,7 @@
     {
       "name": "CraftcoeurHydrexium",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1138,7 +1138,7 @@
     {
       "name": "Compressormk2craft",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1168,7 +1168,7 @@
     {
       "name": "Eaunoir",
       "type": "fluid",
-      "sortid": 45,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1178,7 +1178,7 @@
     {
       "name": "Enderland",
       "type": "dimension",
-      "sortid": 46,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1191,7 +1191,7 @@
     {
       "name": "HammerenInfernium",
       "type": "tool",
-      "sortid": 96,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1201,7 +1201,7 @@
     {
       "name": "HammerenInfinity",
       "type": "tool",
-      "sortid": 97,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1211,7 +1211,7 @@
     {
       "name": "HammerenHydrexium",
       "type": "tool",
-      "sortid": 98,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1221,7 +1221,7 @@
     {
       "name": "StationHammerMk1",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1239,7 +1239,7 @@
     {
       "name": "StationHammerMk2",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1253,22 +1253,75 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "Mercury",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercury",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Infernium",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infernium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "Slavicnium",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicnium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.hydrexium_1_16.slavicnium_leggings": "Jambières de Slavicnium",
       "item.hydrexium_1_16.lingot_hydrexium": "L\u0027ingot en Hydrexium",
       "item.hydrexium_1_16.hydrexium_leggings": "Jambières de Hydrexium",
       "item.hydrexium_1_16.lingotdinfernium": "L\u0027ingot d\u0027infernium",
       "item.hydrexium_1_16.tetedegrappin": " Tête de Grappin",
+      "item.hydrexium_1_16.infernium_boots": "Bottes en Infernium",
       "item.hydrexium_1_16.ultimate_gem": "Ultimate Gem",
+      "item.hydrexium_1_16.slavicnium_helmet": "Casque en Slavicnium",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
       "item.hydrexium_1_16.ultimate_armor_boots": "Bottes en Hydrexium Ultime",
+      "item.hydrexium_1_16.slavicnium_boots": "Bottes en Slavicnium",
       "item.hydrexium_1_16.armureen_hydrexiumavence_leggings": "Jambières en Hydrexium avencé",
       "item.hydrexium_1_16.lingotdefauconium": "L\u0027ingot de fauconium",
       "block.hydrexium_1_16.voidiumbloc": "Voidium bloc",
+      "item.hydrexium_1_16.mercury_helmet": "Casque en Mercury",
       "entity.hydrexium_1_16.souris": "Souris",
       "item.hydrexium_1_16.hammeren_hydrexium": "Hammer en Hydrexium",
       "item.hydrexium_1_16.souris_spawn_egg": "Souris Spawn Egg",
@@ -1288,6 +1341,7 @@
       "item.hydrexium_1_16.epeeen_hydrexiumavence": "Epee en Hydrexium avencé",
       "item.hydrexium_1_16.ultimate_armor_chestplate": "Plastron en Hydrexium Ultime",
       "block.hydrexium_1_16.infinitybloc": "Infinity bloc",
+      "item.hydrexium_1_16.infernium_leggings": "Jambières de Infernium",
       "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
       "item.hydrexium_1_16.ultimate_armor_leggings": "Jambières en Hydrexium Ultime",
       "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
@@ -1296,20 +1350,24 @@
       "block.hydrexium_1_16.luckyblock": "Lucky block en Hydrexium",
       "block.hydrexium_1_16.mineraisdevoidium": "Mineraisdevoidium",
       "block.hydrexium_1_16.mineraisdinfinity": "Minerais dinfinity",
+      "item.hydrexium_1_16.infernium_helmet": "Casque en Infernium",
       "block.hydrexium_1_16.oxoniumbloc": "Oxonium bloc",
       "item.hydrexium_1_16.hammeren_infernium": "Hammer en Infernium",
       "item.hydrexium_1_16.lingotde_slavicnium": "L\u0027ingot de Slavicnium",
       "block.hydrexium_1_16.compresseurmk_2": "Compresseur mk2",
       "item.hydrexium_1_16.coeuren_hydrexium": "Coeur en Hydrexium",
       "item.hydrexium_1_16.lingotde_blutenium": "Lingot de Blutenium",
+      "item.hydrexium_1_16.infernium_chestplate": "Plastron de Infernium",
       "block.hydrexium_1_16.mineraisde_slavicnium": "Minerais de Slavicnium",
       "block.hydrexium_1_16.mineraisde_fauconium": "Minerais de Fauconium",
+      "item.hydrexium_1_16.mercury_boots": "Bottes en Mercury",
       "item.hydrexium_1_16.armureen_hydrexiumavence_boots": "Bottes en Hydrexium avencé",
       "item.hydrexium_1_16.hydrexium_chestplate": "Plastron de Hydrexium",
       "block.hydrexium_1_16.minerais_d_hydrexium_1": "Minerais en Hydrexium ",
       "block.hydrexium_1_16.minerais_d_hydrexium_2": "Minerais en Hydrexium ",
       "item.hydrexium_1_16.lingot_dinfinity": "L\u0027ingot D\u0027infinity",
       "item.hydrexium_1_16.hammeren_infinity": "Hammer en Infinity",
+      "item.hydrexium_1_16.mercury_chestplate": "Plastron de Mercury",
       "item.hydrexium_1_16.enderland": "Enderland Portal Igniter",
       "item.hydrexium_1_16.lingotdemercury": "L\u0027ingot de mercury",
       "block.hydrexium_1_16.minerais_doxonium": "Minerais Doxonium",
@@ -1319,10 +1377,12 @@
       "block.hydrexium_1_16.compresseur": "Compresseur",
       "item.hydrexium_1_16.batonnoir": "Baton noir",
       "item.hydrexium_1_16.eaunoir_bucket": "Eaunoir Bucket",
+      "item.hydrexium_1_16.slavicnium_chestplate": "Plastron de Slavicnium",
       "item.hydrexium_1_16.armureen_hydrexiumavence_chestplate": "Plastron en Hydrexium avencé",
       "block.hydrexium_1_16.minerais_d_ultimate": "Minerais D Ultimate",
       "block.hydrexium_1_16.slavicniumbloc": "Slavicnium bloc",
       "block.hydrexium_1_16.hydrexiumbloc": "Hydrexium bloc",
+      "item.hydrexium_1_16.mercury_leggings": "Jambières de Mercury",
       "block.hydrexium_1_16.mineraisdemercury": "Minerais de mercury"
     }
   },
@@ -1366,7 +1426,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.1.1 [Bêta]",
+    "version": "1.1.2]",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

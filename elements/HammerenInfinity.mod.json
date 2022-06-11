@@ -11,15 +11,19 @@
       "value": "CUSTOM:Hydrexiumtab"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
+    "harvestLevel": 2,
+    "efficiency": 5.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 3,
     "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "usageCount": 200,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:LingotDinfinity"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

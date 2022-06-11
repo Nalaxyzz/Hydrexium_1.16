@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -16,18 +17,18 @@ public class HammerenInferniumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:hammeren_infernium")
 	public static final Item block = null;
 	public HammerenInferniumItem(Hydrexium116ModElements instance) {
-		super(instance, 96);
+		super(instance, 48);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 500;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
@@ -35,7 +36,7 @@ public class HammerenInferniumItem extends Hydrexium116ModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantability() {
@@ -43,7 +44,7 @@ public class HammerenInferniumItem extends Hydrexium116ModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(LingotdinferniumItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 		}.setRegistryName("hammeren_infernium"));
