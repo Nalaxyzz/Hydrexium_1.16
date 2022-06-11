@@ -1,0 +1,26 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:hydrexium_boots",
+    "count": 1
+  }
+}

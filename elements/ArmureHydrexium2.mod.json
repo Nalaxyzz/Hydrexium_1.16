@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:PlaqueHydrexium"
+        "value": "CUSTOM:LingotHydrexium"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:LingotHydrexium"
       },
       {
-        "value": "CUSTOM:PlaqueHydrexium"
+        "value": "CUSTOM:LingotHydrexium"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:LingotHydrexium"
       },
       {
-        "value": "Blocks.DRAGON_EGG"
+        "value": ""
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": "CUSTOM:LingotHydrexium"
       },
       {
-        "value": "CUSTOM:PlaqueHydrexium"
+        "value": "CUSTOM:LingotHydrexium"
       },
       {
-        "value": "Items.NETHER_STAR"
+        "value": ""
       },
       {
-        "value": "CUSTOM:PlaqueHydrexium"
+        "value": "CUSTOM:LingotHydrexium"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CoeurenHydrexium"
+      "value": "CUSTOM:Hydrexium.legs"
     },
-    "name": "craftcoeur_hydrexium",
+    "name": "armure_hydrexium_2",
     "namespace": "mod"
   }
 }

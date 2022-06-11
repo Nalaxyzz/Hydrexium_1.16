@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:Lingotdevoidium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:StationDhammermk1"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:Lingotdevoidium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StationDhammermk2"
+    },
+    "name": "station_hammermk_2_craft",
+    "namespace": "mod"
+  }
+}

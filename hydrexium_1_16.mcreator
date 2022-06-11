@@ -1126,16 +1126,6 @@
       "path": "~/Item"
     },
     {
-      "name": "CraftcoeurHydrexium",
-      "type": "recipe",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "craftcoeur_hydrexium",
-      "path": "~/Craft"
-    },
-    {
       "name": "Compressormk2craft",
       "type": "procedure",
       "sortid": 101,
@@ -1301,6 +1291,216 @@
         "ec": true
       },
       "path": "~/Item"
+    },
+    {
+      "name": "ArmureHydrexium1",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_hydrexium_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureHydrexium2",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_hydrexium_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureHydrexium3",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_hydrexium_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureHydrexium4",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_hydrexium_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Armureinfernium1",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armureinfernium_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Armureinfernium2",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armureinfernium_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Armureinfernium3",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armureinfernium_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Armureinfernium4",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armureinfernium_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureMercury1",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_mercury_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureMercury2",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_mercury_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureMercury3",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_mercury_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureMercury4",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_mercury_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureSlavicnium1",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_slavicnium_1",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureSlavicnium2",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_slavicnium_2",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureSlavicnium3",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_slavicnium_3",
+      "path": "~/Craft"
+    },
+    {
+      "name": "ArmureSlavicnium4",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armure_slavicnium_4",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Compresseurmk1craft",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresseurmk_1craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Compresseurmk2craft",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compresseurmk_2craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "StationHammermk1craft",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "station_hammermk_1craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "StationHammermk2Craft",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "station_hammermk_2_craft",
+      "path": "~/Craft"
+    },
+    {
+      "name": "Four11",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "four_11",
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [],
@@ -1426,7 +1626,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.1.2]",
+    "version": "1.1.5",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

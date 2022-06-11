@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:UltimateGem"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:Compresseur"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      },
+      {
+        "value": "CUSTOM:LingotdeBlutenium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Compresseurmk2"
+    },
+    "name": "compresseurmk_2craft",
+    "namespace": "mod"
+  }
+}

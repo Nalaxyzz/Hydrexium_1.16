@@ -1,0 +1,29 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingotdemercury"
+    },
+    "1": {
+      "item": "hydrexium_1_16:lingotdemercury"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingotdemercury"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingotdemercury"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingotdemercury"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:mercury_helmet",
+    "count": 1
+  }
+}

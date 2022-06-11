@@ -1,0 +1,39 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingotdinfernium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:infernium_chestplate",
+    "count": 1
+  }
+}

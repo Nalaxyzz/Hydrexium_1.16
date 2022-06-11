@@ -68,7 +68,7 @@ public class UltimateArmorItem extends Hydrexium116ModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 8f;
+				return 10f;
 			}
 
 			@Override

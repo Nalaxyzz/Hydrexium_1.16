@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingotde_blutenium"
+    },
+    "1": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingotde_blutenium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingotde_blutenium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:station_dhammermk_1"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingotde_blutenium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingotde_blutenium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingotdevoidium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingotde_blutenium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:station_dhammermk_2",
+    "count": 1
+  }
+}

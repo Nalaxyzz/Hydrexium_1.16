@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lingotdemercury"
+      },
+      {
+        "value": "CUSTOM:Lingotdemercury"
+      },
+      {
+        "value": "CUSTOM:Lingotdemercury"
+      },
+      {
+        "value": "CUSTOM:Lingotdemercury"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Lingotdemercury"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Mercury.helmet"
+    },
+    "name": "armure_mercury_4",
+    "namespace": "mod"
+  }
+}

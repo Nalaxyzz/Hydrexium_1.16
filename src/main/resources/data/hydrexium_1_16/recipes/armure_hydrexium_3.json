@@ -1,0 +1,39 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:hydrexium_chestplate",
+    "count": 1
+  }
+}

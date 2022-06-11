@@ -1,0 +1,39 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:slavicnium_chestplate",
+    "count": 1
+  }
+}

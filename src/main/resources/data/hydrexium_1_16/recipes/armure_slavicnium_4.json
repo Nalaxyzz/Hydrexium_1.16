@@ -1,0 +1,29 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "1": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:lingotde_slavicnium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:slavicnium_helmet",
+    "count": 1
+  }
+}
