@@ -1,0 +1,7 @@
+{
+  "parent": "hydrexium_1_16:custom/solar_pickaxe",
+  "textures": {
+    "0": "hydrexium_1_16:blocks/solar_pickaxe",
+    "particle": "hydrexium_1_16:items/hydrexium_coeur"
+  }
+}

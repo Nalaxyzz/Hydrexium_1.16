@@ -1607,6 +1607,16 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "BatondePouvoirHydrexium",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "batonde_pouvoir_hydrexium",
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -1629,6 +1639,7 @@
       "block.hydrexium_1_16.voidiumbloc": "Voidium bloc",
       "item.hydrexium_1_16.mercury_helmet": "Casque en Mercury",
       "entity.hydrexium_1_16.souris": "Souris",
+      "item.hydrexium_1_16.batonde_pouvoir_hydrexium": "Baton de Pouvoir en Hydrexium",
       "item.hydrexium_1_16.hammeren_hydrexium": "Hammer en Hydrexium",
       "item.hydrexium_1_16.souris_spawn_egg": "Souris Spawn Egg",
       "block.hydrexium_1_16.station_dhammermk_2": "Station Dhammer mk2",
@@ -1732,7 +1743,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.2.0",
+    "version": "1.2.5",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

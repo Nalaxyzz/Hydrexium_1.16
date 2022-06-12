@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nocsy_dragon_sword"
+      },
+      "name": "default"
+    }
+  }
+}

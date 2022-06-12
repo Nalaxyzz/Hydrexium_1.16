@@ -3,9 +3,9 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "mercury_head",
+    "textureHelmet": "mercury_helmet",
     "enableBody": true,
-    "textureBody": "mercury_body",
+    "textureBody": "mercury_chestplate",
     "enableLeggings": true,
     "textureLeggings": "mercury_leggings",
     "enableBoots": true,
@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
-    "armorTextureFile": "mercury__",
+    "armorTextureFile": "mercury______2",
     "helmetName": "Casque en Mercury",
     "bodyName": "Plastron de Mercury",
     "leggingsName": "Jambières de Mercury",

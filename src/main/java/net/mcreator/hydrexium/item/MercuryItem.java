@@ -79,25 +79,25 @@ public class MercuryItem extends Hydrexium116ModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hydrexium_1_16:textures/models/armor/mercury___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hydrexium_1_16:textures/models/armor/mercury______2_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("mercury_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hydrexium_1_16:textures/models/armor/mercury___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hydrexium_1_16:textures/models/armor/mercury______2_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("mercury_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hydrexium_1_16:textures/models/armor/mercury___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hydrexium_1_16:textures/models/armor/mercury______2_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("mercury_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "hydrexium_1_16:textures/models/armor/mercury___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "hydrexium_1_16:textures/models/armor/mercury______2_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("mercury_boots"));
 	}

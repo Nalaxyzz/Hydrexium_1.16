@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hydrexium_1_16:items/mercury_body"
+    "layer0": "hydrexium_1_16:items/mercury_chestplate"
   }
 }
