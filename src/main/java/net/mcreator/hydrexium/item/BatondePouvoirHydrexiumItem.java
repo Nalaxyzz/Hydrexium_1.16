@@ -59,7 +59,7 @@ public class BatondePouvoirHydrexiumItem extends Hydrexium116ModElements.ModElem
 
 		@Override
 		public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-			return 20f;
+			return 30f;
 		}
 
 		@Override
