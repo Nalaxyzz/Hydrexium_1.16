@@ -1627,6 +1627,16 @@
       "ids": {},
       "registry_name": "pioche_hydrexium",
       "path": "~/Item"
+    },
+    {
+      "name": "HoeenHydrexium",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoeen_hydrexium",
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -1671,6 +1681,7 @@
       "item.hydrexium_1_16.infernium_leggings": "Jambières de Infernium",
       "item.hydrexium_1_16.lingotdevoidium": "L\u0027ingot de voidium",
       "item.hydrexium_1_16.ultimate_armor_leggings": "Jambières en Hydrexium Ultime",
+      "item.hydrexium_1_16.hoeen_hydrexium": "Hoe en Hydrexium",
       "block.hydrexium_1_16.minerais_dinfernium": "Minerais Dinfernium",
       "item.hydrexium_1_16.ultimate_armor_helmet": "Casque en Hydrexium Ultime",
       "item.hydrexium_1_16.grappin": "Grappin",
@@ -1754,7 +1765,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
