@@ -18,6 +18,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -34,6 +35,7 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
+import net.mcreator.hydrexium.item.PepitenehydrexiumItem;
 import net.mcreator.hydrexium.entity.renderer.SourisRenderer;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
@@ -115,6 +117,11 @@ public class SourisEntity extends Hydrexium116ModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(PepitenehydrexiumItem.block, (int) (1)));
 		}
 
 		@Override
