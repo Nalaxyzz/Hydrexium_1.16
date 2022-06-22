@@ -27,7 +27,7 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
+    "onRightClickedOnBlock": {
       "name": "Hammer"
     }
   }

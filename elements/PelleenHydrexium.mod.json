@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hydrexium_sword",
+    "texture": "mythril_shovel",
     "customModelName": "Normal",
-    "name": "Epee en Hydrexium avencé",
+    "name": "Pelle en Hydrexium",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
-    "toolType": "Sword",
-    "harvestLevel": 1,
+    "toolType": "Spade",
+    "harvestLevel": 4,
     "efficiency": 4.0,
-    "attackSpeed": 1.6,
-    "enchantability": 2,
-    "damageVsEntity": 11.0,
-    "usageCount": 1500,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:PlaqueHydrexium"
+        "value": "CUSTOM:LingotHydrexium"
       }
     ],
     "immuneToFire": false,

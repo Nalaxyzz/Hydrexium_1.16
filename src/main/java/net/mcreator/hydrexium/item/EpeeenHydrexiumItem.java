@@ -4,8 +4,7 @@ package net.mcreator.hydrexium.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -13,18 +12,18 @@ import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 @Hydrexium116ModElements.ModElement.Tag
-public class EpeeenHydrexiumavenceItem extends Hydrexium116ModElements.ModElement {
-	@ObjectHolder("hydrexium_1_16:epeeen_hydrexiumavence")
+public class EpeeenHydrexiumItem extends Hydrexium116ModElements.ModElement {
+	@ObjectHolder("hydrexium_1_16:epeeen_hydrexium")
 	public static final Item block = null;
-	public EpeeenHydrexiumavenceItem(Hydrexium116ModElements instance) {
-		super(instance, 47);
+	public EpeeenHydrexiumItem(Hydrexium116ModElements instance) {
+		super(instance, 134);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 1500;
+				return 1000;
 			}
 
 			public float getEfficiency() {
@@ -32,21 +31,21 @@ public class EpeeenHydrexiumavenceItem extends Hydrexium116ModElements.ModElemen
 			}
 
 			public float getAttackDamage() {
-				return 9f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PlaqueHydrexiumItem.block, (int) (1)));
+				return Ingredient.EMPTY;
 			}
-		}, 3, -2.4f, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
-		}.setRegistryName("epeeen_hydrexiumavence"));
+		}, 1, -2.7999999999999998f, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
+		}.setRegistryName("epeeen_hydrexium"));
 	}
 }

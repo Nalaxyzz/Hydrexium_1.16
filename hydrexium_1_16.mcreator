@@ -1637,6 +1637,26 @@
       "ids": {},
       "registry_name": "hoeen_hydrexium",
       "path": "~/Item"
+    },
+    {
+      "name": "PelleenHydrexium",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pelleen_hydrexium",
+      "path": "~/Item"
+    },
+    {
+      "name": "EpeeenHydrexium",
+      "type": "tool",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epeeen_hydrexium",
+      "path": "~/Item"
     }
   ],
   "variable_elements": [],
@@ -1651,6 +1671,7 @@
       "item.hydrexium_1_16.infernium_boots": "Bottes en Infernium",
       "item.hydrexium_1_16.ultimate_gem": "Ultimate Gem",
       "item.hydrexium_1_16.slavicnium_helmet": "Casque en Slavicnium",
+      "item.hydrexium_1_16.epeeen_hydrexium": "Epee en Hydrexium",
       "item.hydrexium_1_16.lingot_doxonium": "L\u0027ingot D\u0027oxonium",
       "item.hydrexium_1_16.ultimate_armor_boots": "Bottes en Hydrexium Ultime",
       "item.hydrexium_1_16.slavicnium_boots": "Bottes en Slavicnium",
@@ -1696,6 +1717,7 @@
       "item.hydrexium_1_16.coeuren_hydrexium": "Coeur en Hydrexium",
       "item.hydrexium_1_16.lingotde_blutenium": "Lingot de Blutenium",
       "item.hydrexium_1_16.infernium_chestplate": "Plastron de Infernium",
+      "item.hydrexium_1_16.pelleen_hydrexium": "Pelle en Hydrexium",
       "block.hydrexium_1_16.mineraisde_slavicnium": "Minerais de Slavicnium",
       "block.hydrexium_1_16.mineraisde_fauconium": "Minerais de Fauconium",
       "item.hydrexium_1_16.mercury_boots": "Bottes en Mercury",
@@ -1765,7 +1787,7 @@
   "workspaceSettings": {
     "modid": "hydrexium_1_16",
     "modName": "Hydrexium 1.16",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "author": "Enzo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

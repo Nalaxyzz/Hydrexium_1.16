@@ -4,7 +4,7 @@ package net.mcreator.hydrexium.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -13,18 +13,18 @@ import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
 import net.mcreator.hydrexium.Hydrexium116ModElements;
 
 @Hydrexium116ModElements.ModElement.Tag
-public class EpeeenHydrexiumavenceItem extends Hydrexium116ModElements.ModElement {
-	@ObjectHolder("hydrexium_1_16:epeeen_hydrexiumavence")
+public class PelleenHydrexiumItem extends Hydrexium116ModElements.ModElement {
+	@ObjectHolder("hydrexium_1_16:pelleen_hydrexium")
 	public static final Item block = null;
-	public EpeeenHydrexiumavenceItem(Hydrexium116ModElements instance) {
-		super(instance, 47);
+	public PelleenHydrexiumItem(Hydrexium116ModElements instance) {
+		super(instance, 133);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 1500;
+				return 1000;
 			}
 
 			public float getEfficiency() {
@@ -32,21 +32,21 @@ public class EpeeenHydrexiumavenceItem extends Hydrexium116ModElements.ModElemen
 			}
 
 			public float getAttackDamage() {
-				return 9f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(PlaqueHydrexiumItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(LingotHydrexiumItem.block, (int) (1)));
 			}
-		}, 3, -2.4f, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
-		}.setRegistryName("epeeen_hydrexiumavence"));
+		}, 1, -3f, new Item.Properties().group(HydrexiumtabItemGroup.tab)) {
+		}.setRegistryName("pelleen_hydrexium"));
 	}
 }
