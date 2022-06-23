@@ -57,7 +57,7 @@ public class LuckyblockBlock extends Hydrexium116ModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Date de sortie V3"));
+			list.add(new StringTextComponent("Item d\u00E9sactiver suite a un probleme"));
 		}
 
 		@Override
