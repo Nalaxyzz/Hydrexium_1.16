@@ -16,7 +16,7 @@ import java.util.Map;
 @Hydrexium116ModElements.ModElement.Tag
 public class CasqueeffetHydrexiumavenceProcedure extends Hydrexium116ModElements.ModElement {
 	public CasqueeffetHydrexiumavenceProcedure(Hydrexium116ModElements instance) {
-		super(instance, 55);
+		super(instance, 61);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

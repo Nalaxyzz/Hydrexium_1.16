@@ -29,7 +29,7 @@ public class MercuryItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:mercury_boots")
 	public static final Item boots = null;
 	public MercuryItem(Hydrexium116ModElements instance) {
-		super(instance, 41);
+		super(instance, 42);
 	}
 
 	@Override

@@ -41,7 +41,7 @@ public class StationHammerMk2GuiGui extends Hydrexium116ModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public StationHammerMk2GuiGui(Hydrexium116ModElements instance) {
-		super(instance, 73);
+		super(instance, 79);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

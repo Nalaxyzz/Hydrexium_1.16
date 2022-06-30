@@ -75,7 +75,7 @@ public class EnderlandDimension extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:enderland_portal")
 	public static final CustomPortalBlock portal = null;
 	public EnderlandDimension(Hydrexium116ModElements instance) {
-		super(instance, 52);
+		super(instance, 48);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

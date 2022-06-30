@@ -1,0 +1,16 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:lingot_hydrexium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:pepitenehydrexium",
+    "count": 9
+  }
+}

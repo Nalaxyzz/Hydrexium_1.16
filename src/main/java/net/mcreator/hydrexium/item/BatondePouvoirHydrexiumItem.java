@@ -25,7 +25,7 @@ public class BatondePouvoirHydrexiumItem extends Hydrexium116ModElements.ModElem
 	@ObjectHolder("hydrexium_1_16:batonde_pouvoir_hydrexium")
 	public static final Item block = null;
 	public BatondePouvoirHydrexiumItem(Hydrexium116ModElements instance) {
-		super(instance, 130);
+		super(instance, 52);
 	}
 
 	@Override

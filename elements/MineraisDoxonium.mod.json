@@ -103,7 +103,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [
       "End",
-      "CUSTOM:Test"
+      "CUSTOM:Enderland"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

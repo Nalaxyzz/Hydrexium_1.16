@@ -29,7 +29,7 @@ public class InferniumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:infernium_boots")
 	public static final Item boots = null;
 	public InferniumItem(Hydrexium116ModElements instance) {
-		super(instance, 42);
+		super(instance, 43);
 	}
 
 	@Override

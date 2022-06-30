@@ -15,7 +15,7 @@ import java.util.Map;
 @Hydrexium116ModElements.ModElement.Tag
 public class DropGraineHydrexiumProcedure extends Hydrexium116ModElements.ModElement {
 	public DropGraineHydrexiumProcedure(Hydrexium116ModElements instance) {
-		super(instance, 70);
+		super(instance, 76);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

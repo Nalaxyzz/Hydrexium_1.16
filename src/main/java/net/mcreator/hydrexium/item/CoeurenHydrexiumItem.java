@@ -16,7 +16,7 @@ public class CoeurenHydrexiumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:coeuren_hydrexium")
 	public static final Item block = null;
 	public CoeurenHydrexiumItem(Hydrexium116ModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class PiocheHydrexiumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:pioche_hydrexium")
 	public static final Item block = null;
 	public PiocheHydrexiumItem(Hydrexium116ModElements instance) {
-		super(instance, 131);
+		super(instance, 54);
 	}
 
 	@Override

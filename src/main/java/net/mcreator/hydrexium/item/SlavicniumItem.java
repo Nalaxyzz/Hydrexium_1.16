@@ -29,7 +29,7 @@ public class SlavicniumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:slavicnium_boots")
 	public static final Item boots = null;
 	public SlavicniumItem(Hydrexium116ModElements instance) {
-		super(instance, 43);
+		super(instance, 44);
 	}
 
 	@Override

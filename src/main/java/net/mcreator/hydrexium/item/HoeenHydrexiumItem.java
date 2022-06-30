@@ -17,7 +17,7 @@ public class HoeenHydrexiumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:hoeen_hydrexium")
 	public static final Item block = null;
 	public HoeenHydrexiumItem(Hydrexium116ModElements instance) {
-		super(instance, 132);
+		super(instance, 55);
 	}
 
 	@Override

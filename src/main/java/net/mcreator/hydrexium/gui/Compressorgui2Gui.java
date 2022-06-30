@@ -41,7 +41,7 @@ public class Compressorgui2Gui extends Hydrexium116ModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public Compressorgui2Gui(Hydrexium116ModElements instance) {
-		super(instance, 72);
+		super(instance, 78);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

@@ -8,17 +8,17 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 
 import net.mcreator.hydrexium.world.dimension.EnderlandDimension;
+import net.mcreator.hydrexium.itemgroup.HydrexiumtabItemGroup;
 
 public class EnderlandItem extends Item {
 	@ObjectHolder("hydrexium_1_16:enderland")
 	public static final Item block = null;
 	public EnderlandItem() {
-		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
+		super(new Item.Properties().group(HydrexiumtabItemGroup.tab).maxDamage(64));
 	}
 
 	@Override

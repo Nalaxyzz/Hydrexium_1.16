@@ -38,7 +38,7 @@ public class UltimateArmorItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:ultimate_armor_boots")
 	public static final Item boots = null;
 	public UltimateArmorItem(Hydrexium116ModElements instance) {
-		super(instance, 38);
+		super(instance, 39);
 	}
 
 	@Override

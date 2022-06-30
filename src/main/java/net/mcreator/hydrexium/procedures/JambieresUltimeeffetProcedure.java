@@ -13,7 +13,7 @@ import java.util.Map;
 @Hydrexium116ModElements.ModElement.Tag
 public class JambieresUltimeeffetProcedure extends Hydrexium116ModElements.ModElement {
 	public JambieresUltimeeffetProcedure(Hydrexium116ModElements instance) {
-		super(instance, 128);
+		super(instance, 133);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -65,7 +65,7 @@ public class CompresseurBlock extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:compresseur")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public CompresseurBlock(Hydrexium116ModElements instance) {
-		super(instance, 32);
+		super(instance, 33);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

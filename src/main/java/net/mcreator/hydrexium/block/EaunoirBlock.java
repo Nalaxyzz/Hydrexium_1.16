@@ -54,7 +54,7 @@ public class EaunoirBlock extends Hydrexium116ModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public EaunoirBlock(Hydrexium116ModElements instance) {
-		super(instance, 51);
+		super(instance, 58);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

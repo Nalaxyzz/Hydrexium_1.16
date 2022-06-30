@@ -25,7 +25,7 @@ public class HammerenInferniumItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:hammeren_infernium")
 	public static final Item block = null;
 	public HammerenInferniumItem(Hydrexium116ModElements instance) {
-		super(instance, 48);
+		super(instance, 50);
 	}
 
 	@Override

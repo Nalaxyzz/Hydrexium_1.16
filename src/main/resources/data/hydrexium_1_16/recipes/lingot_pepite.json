@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium_1_16",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "1": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "2": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "3": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "4": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "5": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "6": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "7": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    },
+    "8": {
+      "item": "hydrexium_1_16:pepitenehydrexium"
+    }
+  },
+  "result": {
+    "item": "hydrexium_1_16:lingot_hydrexium",
+    "count": 1
+  }
+}

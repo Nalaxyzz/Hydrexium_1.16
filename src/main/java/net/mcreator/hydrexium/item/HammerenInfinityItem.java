@@ -25,7 +25,7 @@ public class HammerenInfinityItem extends Hydrexium116ModElements.ModElement {
 	@ObjectHolder("hydrexium_1_16:hammeren_infinity")
 	public static final Item block = null;
 	public HammerenInfinityItem(Hydrexium116ModElements instance) {
-		super(instance, 49);
+		super(instance, 51);
 	}
 
 	@Override

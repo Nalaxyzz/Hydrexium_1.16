@@ -12,7 +12,7 @@ import java.util.Map;
 @Hydrexium116ModElements.ModElement.Tag
 public class Stage2graineHydrexiumProcedure extends Hydrexium116ModElements.ModElement {
 	public Stage2graineHydrexiumProcedure(Hydrexium116ModElements instance) {
-		super(instance, 68);
+		super(instance, 74);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
